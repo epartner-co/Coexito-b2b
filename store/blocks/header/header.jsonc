@@ -1,0 +1,134 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      //"flex-layout.row#1-desktop",
+      //"flex-layout.row#2-desktop",
+      "sticky-layout#4-desktop",
+      "flex-layout.row#3-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "fullWidth": true
+    },
+    "children": [
+      //"vtex.menu@2.x:menu#websites",
+      "vtex.menu@2.x:menu#institutional"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "clear-button",
+      "placeholder": "Buscar producto"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#search-desktop",
+      "flex-layout.col#spacer",
+      "flex-layout.col#cotizaciones",
+      "flex-layout.col#logIn",
+      "flex-layout.col#MMiniCart"
+    ]
+  },
+  // Header items Carrito coti y minicart
+  "flex-layout.col#logIn": {
+    "props": {
+      "blockClass":["login","headerItem"]
+    },
+    "children": ["login"]
+  },
+  "login": {
+    "props": {
+      "blockClass":"headerItem",
+      "iconLabel":"Iniciar Sesión",
+      "logInButtonBehavior": "link"
+    }
+  },
+  "flex-layout.col#cotizaciones": {
+    "props": {
+      "blockClass":["cotizaciones","headerItem"]
+    },
+    "children": ["rich-text#cotizacion"]
+  },
+  "rich-text#cotizacion": {
+    "props": {
+      "text": "[Cotizaciones](/orderquote)",
+      "blockClass": "cotizaciones"
+    }
+  },
+  "flex-layout.col#MMiniCart": {
+    "props": {
+      "blockClass":["minicart","headerItem"]
+    },
+    "children": ["minicart.v2"]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://coexitob2b.vteximg.com.br/arquivos/coexitoOnline-newlogo.png",
+      "width": "180"
+    }
+  }
+}

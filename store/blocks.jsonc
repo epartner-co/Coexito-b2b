@@ -1,0 +1,93 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["flex-layout.row#myacccount"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "list-context.image-list#account-1": {
+    "children": ["slider-layout#demo-account-1"],
+    "props": {
+      "height": 720,
+      "blockClass":"bannerinfeFl",
+      "images": [
+        {
+          "image": "https://coexitob2b.vteximg.com.br/arquivos/Banner-account-new.png",
+          "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/Banner-account-mobile.png"
+        },
+        {
+          "image": "https://coexitob2b.vteximg.com.br/arquivos/Banner-account-new.png",
+          "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/Banner-account-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-account-1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots":"never",
+      "blockClass": ["carousel", "borderc"]
+    }
+  },
+
+  "store.login": {
+    "blocks": ["list-context.image-list#login", "flex-layout.row#form"],
+    "props": {
+      "blockClass": "contenedorCF"
+    }
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+
+  "store.not-found#product": {
+    "blocks": ["search-not-found-layout"]
+  },
+
+  "store.not-found#search": {
+    "blocks": ["search-not-found-layout"]
+  },
+
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  }
+/*  "product-availability-gallery": {
+    "props": {
+      "showAvailability": true,
+      "showAvailabilityMessage": "Available items:"
+    }
+  }*/
+}

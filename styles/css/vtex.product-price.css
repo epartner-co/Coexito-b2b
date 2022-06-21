@@ -1,0 +1,123 @@
+.listPrice {
+  color: #727273;
+  margin-bottom: -4px;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+.sellingPrice {
+  color: #3f3f40;
+  font-size: 1.25rem;
+}
+
+.sellingPriceValue {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.installments {
+  color: #727273;
+  margin-bottom: 1rem;
+}
+
+.savings {
+  font-weight: 500;
+  color: #79B03A;
+}
+
+.sellingPriceValue--summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2E2E2E;
+}
+
+.savings--summary {
+  background: #8BC34A;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  font-size: .875rem;
+  margin-bottom: 0px;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.savings--summaryPercentage {
+  background: #0f3e99;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+.installments--summary{
+  display: none;
+}
+.currencyDecimal--summary {
+  display: none;
+}
+.currencyFraction--summary:last-child{
+  display: none;
+}
+.savings--flag-desc-producto {
+  display: flex;
+  align-items: flex-end;
+}
+.savingsPercentage--flag-desc-producto {
+  background-color: #ed6b10;
+  color: white;
+  font-size: 12px;
+  padding: 1px 8px;
+  border-radius: 3px;
+  margin: 0 0 -2px 6px;
+}
+.savingsPercentage--flag-desc-producto::before {
+  content: "-";
+}
+
+@media (max-width: 600px) {
+.currencyContainer.currencyContainer--summary {font-size: 14px;}
+
+.listPrice--summary .currencyContainer.currencyContainer--summary {font-size: 10px;}
+
+.listPrice--summary{
+  margin: 7px 0 0 0!important;
+}
+.flexRowContent--precio {
+  align-items: center;
+}
+.currencyLiteral{
+  display: none;
+}
+.currencyCode {
+  margin-right: 2px;
+}
+}

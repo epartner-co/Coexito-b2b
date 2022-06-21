@@ -1,0 +1,150 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#shop",
+      "menu-item#about-us"
+    ],
+    "props":{
+      "blockClass":"vertical-menu"
+    }
+  },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#vtex-website",
+      "menu-item#vtex-website2",
+      "menu-item#vtex-website3",
+      "menu-item#vtex-website4",
+      "menu-item#vtex-website5",
+      "menu-item#vtex-website6"
+    ],
+    "props":{
+      "blockClass":"vertical-menu"
+    }
+  },
+  "menu-item#vtex-website": {
+    "props": {
+      "blockClass": ["vertical","inicio"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Inicio",
+        "text": "INICIO"
+      }
+    }
+  },
+  "menu-item#vtex-website2": {
+    "props": {
+      "blockClass": ["vertical","baterias"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Baterías",
+        "noFollow": false,
+        "tagTitle": "Baterías",
+        "text": "BATERÍAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#baterias"
+    ]
+  },
+  "menu-item#vtex-website3": {
+    "props": {
+      "blockClass": ["vertical","llantas"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Llantas",
+        "noFollow": false,
+        "tagTitle": "Llantas",
+        "text": "LLANTAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#llantas"
+    ]
+  },
+  "menu-item#vtex-website4": {
+    "props": {
+      "blockClass": ["vertical","lubricantes"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lubricantes",
+        "noFollow": false,
+        "tagTitle": "Lubricantes",
+        "text": "LUBRICANTES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#lubricantes"
+    ]
+  },
+  "menu-item#vtex-website5": {
+    "props": {
+      "blockClass":[ "vertical","autopartes"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/autopartes",
+        "noFollow": false,
+        "tagTitle": "Autopartes",
+        "text": "AUTOPARTES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#autopartes"
+    ]
+  },
+  "menu-item#vtex-website6": {
+    "props": {
+      "blockClass": ["vertical","motopartes"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Motopartes",
+        "noFollow": false,
+        "tagTitle": "Motopartes",
+        "text": "MOTOPARTES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#motopartes"
+    ]
+  }
+}
