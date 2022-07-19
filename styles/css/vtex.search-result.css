@@ -92,9 +92,15 @@
   color: transparent;
   width: 24px;
 }
+.filter__container--priceRange .filterTitleSpan{
+  font-size: 0;
+}
+.filter__container--priceRange .filterTitleSpan::before{
+  font-size: 14px;
+  content: "Rango de precios";
+}
 
-
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .searchResultContainer {
     padding: 0 5px;
   }

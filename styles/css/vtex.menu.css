@@ -57,6 +57,9 @@
   margin: 5px auto;
   margin-left: -7px;
 }
+:global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-profile-form-3-x-profileSummary)::before{
+  display: none;
+}
 .styledLink--vertical.styledLink--inicio::before {
   background: url(/arquivos/casaIcon.png) no-repeat;
 }
@@ -64,18 +67,20 @@
   background: url(/arquivos/bateriasIcon.png) no-repeat;
 }
 .styledLink--vertical.styledLink--llantas::before {
-  background: url(https://coexitob2b.vtexassets.com/arquivos/llantasicon2.png) no-repeat;
+  background: url(https://coexitob2b.vtexassets.com/arquivos/llantas-1-new-llantas.png) no-repeat;
   background-size: 107% !important;
 }
 .styledLink--vertical.styledLink--lubricantes::before {
   background: url(/arquivos/lubricantesIcon.png) no-repeat;
 }
 .styledLink--vertical.styledLink--autopartes::before {
-  background: url(https://coexitob2b.vtexassets.com/arquivos/motopartes.png) no-repeat;
-  background-size: 104% !important;
+
+  background: url(https://coexitob2b.vtexassets.com/arquivos/autopartes-1-new-icon.png) no-repeat;
+  background-size: 100%!important;
+
 }
 .styledLink--vertical.styledLink--motopartes::before {
-  background: url(/arquivos/MotopartesIcon.png) no-repeat;
+  background: url(https://coexitob2b.vtexassets.com/arquivos/motopartes-1-new-icon.png) no-repeat;
 }
 .menuItem--vertical {
   border-bottom: 1.5px solid #8f8e8e;
@@ -104,7 +109,7 @@
 }
 /*  */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .menuItem--footer-item .styledLinkContent.styledLinkContent--footer-tittle{
     padding: 14px 10px;
     margin-bottom: 18px;
@@ -145,7 +150,7 @@
 .submenuContainer--Submenu .submenuWrapper--isOpen {
   position: fixed;
   left: 103px;
-  width: 100%;
+  width: 25%;
   height: 92%;
   padding: 0;
   top: 83px;
@@ -156,10 +161,21 @@
   background: #E7E7E7;
 }
 .submenuWrapper--isOpen .submenu--Submenu {
-  width: 25%;
+  width: 100%;
   background: white;
   z-index: 99;
 }
+/* .menuItem--isOpen.menuItem--vertical--isOpen::before {
+  content: "";
+  position: fixed;
+  left: 103px;
+  width: 100%;
+  height: 100%;
+  z-index: -9999;
+  padding: 0;
+  top: 83px;
+  background: rgba(0,0,0,0.5);
+} */
 
 .styledLinkContent--menu-lv2 {
   justify-content: center;
@@ -167,7 +183,6 @@
   text-transform: uppercase;
   margin: 0;
   white-space: initial;
-  min-height: 97px;
   display: flex;
   align-items: center;
 }

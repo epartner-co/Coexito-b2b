@@ -135,13 +135,70 @@
     height: 17px;
     margin-left: 15px;
 }
-@media (max-width: 600px) {
+.imageElement--imagen-dos{
+    width: 100%;
+    position: relative;
+}
+.imageElementLink--banner-tres-promo{
+    height: 100%;
+}
+.imageElement--banner-tres-promo{
+    height: 100%;
+}
+.infoCardHeadline--info-educate {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #363636;
+}
+.infoCardCallActionContainer--info-educate :global(.vtex-button){
+    background: #004D9D;
+    border: 0;
+    font-weight: 300;
+}
+.infoCardCallActionContainer--info-educate :global(.vtex-button):hover{
+    background: #004D9D;
+}
+.infoCardTextContainer--info-educate {
+    width: 70%;
+}
+.infoCardImageContainer--info-educate {
+    width: 30%;
+}
+.infoCardCallActionContainer--info-educate-gratuitos {
+    display: none;
+}
+.infoCardContainer--info-educate-gratuitos {
+    margin: 0 0 40px 0;
+    border-top: 1px solid #D3D3D3;
+    padding-top: 40px;
+}
+.infoCardHeadline--info-educate-gratuitos {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #182841;
+}
+.infoCardSubhead--info-educate-gratuitos {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #808080;
+}
+.infoCardTextContainer--info-educate-gratuitos {
+    width: 40%;
+}
+.infoCardImageContainer--info-educate-gratuitos {
+    width: 60%;
+}
+@media (max-width: 900px) {
     .infoCardContainer--info-card-CUATERNARIO {
-        height: 100%;
+        height: 100% !important;
         width: 100%;
     }
     .infoCardContainer--info-card-principal {
-        height: 488px;
+        height: 488px !important;
     }
     .infoCardTextContainer--info-card-CUATERNARIO {
         margin-top: 23%;

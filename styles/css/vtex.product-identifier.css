@@ -13,7 +13,7 @@
 .product-identifier--productReference {
   margin: 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 .product-identifier__label::before {
   font-size: 10px !important;
 }

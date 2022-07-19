@@ -25,7 +25,7 @@
     },
     "rich-text#category": {
         "props": {
-        "text": "Buscar por categoria",
+        "text": "Buscar por categoría",
         "blockClass":"titleCategory"
         }
     },

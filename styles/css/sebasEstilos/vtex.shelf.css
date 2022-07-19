@@ -37,7 +37,7 @@
 .arrow.arrowLeft.arrowLeft--shelf:hover::before {background: url(https://coexitob2b.vteximg.com.br/arquivos/eva_arrow-ios-back-outline-nohover-izq.png) no-repeat;}
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 .arrow.arrowLeft.arrowLeft--shelf {
   right: 60px;
 }

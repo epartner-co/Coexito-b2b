@@ -31,6 +31,12 @@
   },
   "store.custom#quien":{
     "path": "/Quienes-somos"
+  },
+  "store.custom#promos":{
+    "path": "/promociones"
+  },
+  "store.custom#educate":{
+    "path": "/educate"
   }
 
 

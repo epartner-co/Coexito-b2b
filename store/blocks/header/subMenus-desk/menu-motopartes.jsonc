@@ -104,7 +104,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","baterias-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -199,7 +199,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2","menu-lv2-v2"],
+            "blockClass":["menu-lv2","menu-lv2-v2","llantas-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -245,7 +245,7 @@
             "href": "/apparel---accessories/eyeglasses/",
             "noFollow": false,
             "tagTitle": "Llantas y neomáticos",
-            "text": "Llantas y neomáticos"
+            "text": "Llantas y neumáticos"
             }
         }
     },
@@ -294,7 +294,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","lubricantes-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -388,7 +388,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","bujias"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -482,7 +482,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","balineras-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -528,7 +528,7 @@
             "href": "/apparel---accessories/eyeglasses/",
             "noFollow": false,
             "tagTitle": "balineras",
-            "text": "balineras"
+            "text": "Balineras"
             }
         }
     }

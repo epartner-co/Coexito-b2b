@@ -15,6 +15,15 @@
     color: #363636;
     font-size: 16px;
 }
+@media (max-width: 1300px) {
+  .container--sticky-product :global(.vtex-store-components-3-x-productBrand--quickview ){
+    width: 280px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+  } 
+}
 .container--sticky-product :global(.vtex-flex-layout-0-x-flexColChild--rowButtonsProduct-1){
     margin: 5px 0 0 0;
 }

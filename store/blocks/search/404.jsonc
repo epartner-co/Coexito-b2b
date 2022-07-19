@@ -124,7 +124,7 @@
   // final seccion
   "rich-text#aprende-404": {
       "props": {
-        "text": "## APRENDE CON COEXITO",
+        "text": "## APRENDE CON COÉXITO",
         "blockClass": "shelfTitle"
       }
   },

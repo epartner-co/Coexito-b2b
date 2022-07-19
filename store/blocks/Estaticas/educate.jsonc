@@ -1,0 +1,646 @@
+{
+    "store.custom#educate": {
+      "children": [
+        "flex-layout.row#princ",
+        "flex-layout.row#educate"
+      ]
+    },
+  
+    "rich-text#titleF": {
+      "props": {
+        "text": "## **COÉXITO MAYORISTA**",
+        "blockClass": "TitleEstatics"
+      }
+    },
+  
+    "flex-layout.row#educate": {
+      "props": {
+        "blockClass": ["faq","estaticas", "segundocontainer"]
+      },
+      "children": [
+        "flex-layout.col#leftColAccesos-educate",
+        "flex-layout.col#educate"
+      ]
+    },
+    "flex-layout.col#leftColAccesos-educate": {
+      "props":{
+        "blockClass":"primeraCol",
+        "width":"20%"
+      },
+      "children": [
+        "rich-text#Politica-datos-educate",
+        "rich-text#tyc-datos-educate",
+        "rich-text#faq-datos-educate",
+        "rich-text#Nuestro-calzado-educate",
+        "rich-text#todo-sobre-pies-educate",
+        "rich-text#empleado-educate",
+        // "rich-text#Nuestro-compromiso-educate",
+        "rich-text#aviso-legal-educate",
+        "rich-text#tiendas-educate"
+      ]
+    },
+      // accesos de las paginas estaticas
+      "rich-text#Politica-datos-educate": {
+        "props": {
+          "text": "[TYC](/terminos-y-condiciones)",
+          "blockClass":["links-paginas-estaticas"]
+        }
+      },
+      "rich-text#tyc-datos-educate": {
+        "props": {
+          "text": "[FAQ](/faq)",
+          "blockClass":["links-paginas-estaticas"]
+        }
+      },
+      "rich-text#faq-datos-educate": {
+        "props": {
+          "text": "[SIC](/sic)",
+          "blockClass":["links-paginas-estaticas"]
+        }
+      },
+      "rich-text#Nuestro-calzado-educate": {
+        "props": {
+          "text": "[Edúcate](/Educate)",
+          "blockClass":["links-paginas-estaticas","selected"]
+        }
+      },
+      "rich-text#todo-sobre-pies-educate": {
+        "props": {
+          "text": "[Politica de protección de datos](/politica-datos)",
+          "blockClass":"links-paginas-estaticas"
+        }
+      },
+      "rich-text#empleado-educate": {
+        "props": {
+          "text": "[Politica educatekies](/politica-educateckies)",
+          "blockClass":["links-paginas-estaticas"]
+        }
+      },
+      "rich-text#Nuestro-compromiso-educate": {
+        "props": {
+          "text": "[Politica de protección de derechos al consumidor](/nuestro-compromiso)",
+          "blockClass":["links-paginas-estaticas"]
+        }
+      },
+      "rich-text#aviso-legal-educate": {
+        "props": {
+          "text": "[Paga tu facturas](/Usuario)",
+          "blockClass":"links-paginas-estaticas"
+        }
+      },
+      "rich-text#tiendas-educate": {
+        "props": {
+          "text": "[Radicar PQRS](https://energiteca.com/servicio-al-cliente/contacto)",
+          "blockClass":"links-paginas-estaticas"
+        }
+      },
+  
+    "flex-layout.col#educate": {
+      "children": [
+        "rich-text#educate",
+        "rich-text#Conteducate",
+        "flex-layout.col#educate-capacitacion-2",
+        "flex-layout.row#deberes-responsable",
+        "disclosure-layout#educate-1",
+        "flex-layout.row#infocard-edutcate",
+        "rich-text#titulo-educate",
+        "image#recursos-2-educate",
+        "rich-text#titulo-educate-2",
+        "info-card#info-cursos-gratuitos-2",
+        "disclosure-layout#educate-2",
+        "flex-layout.row#contactenos",
+        "flex-layout.row#servicio",
+        "image#recursos-2-footer-educate"
+      ],
+      "props":{
+        "blockClass":"estaticasti"
+      }
+    },
+    "rich-text#educate": {
+      "props": {
+        "text": "## EDUCATE CON COÉXITO",
+        "blockClass": "titlePreguntasfreq"
+      }
+    },
+    "rich-text#Conteducate": {
+      "props": {
+        "text": "Hemos creado esta página para compartir información relevante con el ánimo de aportar al crecimiento individual proyectado al desarrollo de las actividades del día a día de cada uno de nuestros aliados, a través de cursos virtuales que buscan brindar herramientas útiles en procura de lograr beneficios tales como: incremento en ventas, optimización de los procesos internos, desarrollo de habilidades administrativas, conocimientos técnicos específicos de producto. \n EDÚCATE, Conocimiento a tu Alcance, es el programa de Capacitación a través del cual COÉXITO quiere continuar propiciando tu crecimiento y buscando tu progreso. ",
+        "blockClass": "titlePreguntasfreqContenido"
+      }
+    },
+    
+    "flex-layout.col#educate-capacitacion-2": {
+        "props": {
+        "blockClass": ["capcitacio"]
+        },
+        "children": [
+            "flex-layout.row#educate-capacitacion-1",
+            "flex-layout.row#educate-capacitacion-2"
+        ]
+    },
+    "flex-layout.row#educate-capacitacion-1": {
+        "props": {
+        "blockClass": ["capcitacio"]
+        },
+        "children": [
+            "rich-text#capacitacion-1",
+            "rich-text#capacitacion-2"
+        ]
+    },
+    "rich-text#capacitacion-1": {
+        "props": {
+          "text": "Capacitación\n **'Fundamentos Básicos, Aceites Básicos, Aditivos, Funciones de los aditivos.'**\n Fecha: \n Jueves 17 de febrero-2022 \n Hora:  Colombia-09:00 am   - Mexico-08:00 am ",
+          "blockClass":["capacitacion-schedule"]
+        }
+    },
+    "rich-text#capacitacion-2": {
+        "props": {
+          "text": "[Ingresa aquí](/)",
+          "blockClass":["botton-ingresa"]
+        }
+    },
+    "flex-layout.row#educate-capacitacion-2": {
+        "props": {
+        "blockClass": ["capcitacio"]
+        },
+        "children": [
+            "image#capacitacion-2"
+        ]
+    },
+    "image#capacitacion-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/capacitacion-1.png",
+          "blockClass":"capacitacion-image"
+        }
+    },
+    // deberes tratamiento
+    "flex-layout.row#deberes-responsable": {
+        "props": {
+        "blockClass": ["responsable-educate"]
+        },
+        "children": [
+            "flex-layout.col#educate-responsable",
+            "rich-text#responsable-educate1"
+        ]
+    },
+    "flex-layout.col#educate-responsable": {
+        "children": [
+            "image#capacitacion-2-educate"
+        ],
+        "props":{
+            "width":"65%",
+            "blockClass":"responsable"
+        }
+    },
+    "image#capacitacion-2-educate": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/IMAGEN-2-educate.png",
+          "blockClass":"capacitacion-image"
+        }
+    },
+    "rich-text#responsable-educate1": {
+        "props": {
+          "text": "**DEBERES DEL RESPONSABLE DEL TRATAMIENTO**\n\n Ofrecemos diferentes módulos de capacitación técnica sobre los productos que comercializamos y los servicios que prestamos. Las capacitaciones las lidera nuestro equipo de Soporte Técnico, y se realizan de forma virtual.",
+          "blockClass":["titlePreguntasfreqContenido"]
+        }
+    },
+
+
+    // disclosure info
+    "disclosure-layout#educate-1": {
+        "children": ["disclosure-trigger#educate-1", "disclosure-content#educate-1"],
+        "props":{
+            "blockClass":"info-educate"
+        }
+    },
+    "disclosure-trigger#educate-1": {
+        "children": ["rich-text#conocer-educate"],
+        "props":{
+            "blockClass":"info-educate"
+        }
+    },
+    "disclosure-content#educate-1": {
+        "children": ["flex-layout.col#conocer-educate"],
+        "props":{
+            "blockClass":"info-educate"
+        }
+    },
+    "rich-text#conocer-educate": {
+        "props": {
+            "text": "CONOCER TODO SOBRE EDUCATE CON COÉXITO",
+            "blockClass":"titulo-disclusure-apertura"
+        }
+    },
+    "flex-layout.col#conocer-educate": {
+        "props":{
+            "blockClass":"educate-conocer"
+        },
+        "children": [
+            "flex-layout.row#conocer-educate-link"
+        ]
+    },
+    "flex-layout.row#conocer-educate-link": {
+        "props":{
+            "blockClass":"educate-conocer"
+        },
+        "children": [
+            "rich-text#baterias-educate",
+            "rich-text#lubricantes-educate",
+            "rich-text#LLANTAS-educate",
+            "rich-text#diagnostico-educate",
+            "rich-text#autopartes-educate",
+            "rich-text#comercial-educate"
+        ]
+    },
+    "rich-text#baterias-educate": {
+        "props": {
+            "text": "[BATERÍAS](/)",
+            "blockClass":"links-conocer"
+        }
+    },
+    "rich-text#lubricantes-educate": {
+        "props": {
+            "text": "[LUBRICANTES](/)",
+            "blockClass":"links-conocer"
+        }
+    },
+    "rich-text#LLANTAS-educate": {
+        "props": {
+            "text": "[LLANTAS](/)",
+            "blockClass":"links-conocer"
+        }
+    },
+    "rich-text#diagnostico-educate": {
+        "props": {
+            "text": "[EQ. DE DIAGNÓSTICO](/)",
+            "blockClass":"links-conocer"
+        }
+    },
+    "rich-text#autopartes-educate": {
+        "props": {
+            "text": "[AUTOPARTES](/)",
+            "blockClass":"links-conocer"
+        }
+    },
+    "rich-text#comercial-educate": {
+        "props": {
+            "text": "[ACTIVIDAD COMERCIAL](/)",
+            "blockClass":"links-conocer"
+        }
+    },
+    "flex-layout.row#infocard-edutcate": {
+        "children": [
+            "info-card#info-educate-1",
+            "info-card#info-educate-2"
+        ],
+        "props":{
+          "blockClass":"infocard-educate"
+        }
+    },
+    "info-card#info-educate-1":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://coexitob2b.vteximg.com.br/arquivos/Banner-Ppal-educate.png",
+          "callToActionText": "VER VIDEO",
+          "callToActionUrl": "/",
+          "textPosition": "right",
+          "textAlignment": "CENTER",
+          "headline": "Herramientas gratuitas para generar presencia digital de tu negocio",
+          "subhead":"Fecha: Viernes, 09 de Abril de 2021\n Realizado",
+          "isFullModeStyle": false,
+          "blockClass":"info-educate"
+        }
+    },
+    "info-card#info-educate-2":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://coexitob2b.vteximg.com.br/arquivos/Banner-Ppal-educate-2.png",
+          "callToActionText": "GUÍA PROTOCOLO",
+          "callToActionUrl": "/",
+          "textPosition": "right",
+          "textAlignment": "CENTER",
+          "headline": "Medidas Preventivas para la Operación por la Emergencia Sanitaria COVID-19",
+          "subhead":"Fecha: Viernes, 09 de Abril de 2021\n Realizado",
+          "isFullModeStyle": false,
+          "blockClass":"info-educate"
+        }
+    },
+
+    // recursos y material tecnico
+    "rich-text#titulo-educate": {
+        "props": {
+            "text": "RECURSOS Y MATERIAL TECNICO",
+            "blockClass":"titulo-educate"
+        }
+    },
+    "image#recursos-2-educate": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-recursos.png",
+          "blockClass":"educate-image"
+        }
+    },
+    "rich-text#titulo-educate-2": {
+        "props": {
+            "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.",
+            "blockClass":"titlePreguntasfreqContenido"
+        }
+    },
+
+    // cursos gratuitos
+    "info-card#info-cursos-gratuitos-2":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://coexitob2b.vteximg.com.br/arquivos/info-card-cursos-gratuitos.png",
+          "callToActionText": "VER VIDEO",
+          "callToActionUrl": "/",
+          "textPosition": "left",
+          "textAlignment": "CENTER",
+          "headline": "CURSOS GRATUITOS",
+          "subhead":"Identificamos información complementaria, de carácter gratuito, que aporta herramientas para el logro de los objetivos de sus negocios. Sugerimos ingresar a los diferentes cursos virtuales, seleccionando los temas específicos de interés.",
+          "isFullModeStyle": false,
+          "blockClass":"info-educate-gratuitos"
+        }
+    },
+
+    // disclosure cursos gratuitos
+    "disclosure-layout#educate-2": {
+        "children": ["disclosure-trigger#educate-2", "disclosure-content#educate-2"],
+        "props":{
+            "blockClass":"info-educate"
+        }
+    },
+    "disclosure-trigger#educate-2": {
+        "children": ["rich-text#conocer-explicate"],
+        "props":{
+            "blockClass":"info-educate"
+        }
+    },
+    "disclosure-content#educate-2": {
+        "children": ["flex-layout.col#conocer-mas-educate"],
+        "props":{
+            "blockClass":"info-educate"
+        }
+    },
+    "rich-text#conocer-explicate": {
+        "props": {
+            "text": "CONOCER TODO SOBRE LOS CURSOS GRATUITOS",
+            "blockClass":"titulo-disclusure-apertura"
+        }
+    },
+    "flex-layout.col#conocer-mas-educate": {
+        "props":{
+            "blockClass":"educate-conocer"
+        },
+        "children": [
+            "rich-text#conocer-mas-educate",
+            "rich-text#-content-educate",
+            "rich-text#mas-videos"
+        ]
+    },
+    "rich-text#conocer-mas-educate": {
+        "props": {
+            "text": "**MÁS DE EDÚCATE**",
+            "blockClass":"content"
+        }
+    },
+    "rich-text#-content-educate": {
+        "props": {
+            "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.",
+            "blockClass":"content"
+        }
+    },
+    "rich-text#mas-videos": {
+        "props": {
+            "text": "[VER MÁS VIDEOS](/)",
+            "blockClass":"links-ver-mas-video"
+        }
+    },
+    "image#recursos-2-footer-educate": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/oexito-footer-image.png",
+          "blockClass":"educate-image"
+        }
+    },
+
+
+
+    // formulario contactenos
+    "flex-layout.row#contactenos": {
+        "props":{
+            "blockClass":"contactenos"
+        },
+        "children": [
+            "flex-layout.col#contactenos"
+        ]
+    },
+    "flex-layout.col#contactenos": {
+        "props":{
+            "blockClass":"contactenos"
+        },
+        "children": [
+            "rich-text#opinion",
+            "rich-text#-OPINION-CONT",
+            "form#contacteno"
+        ]
+    },
+    "rich-text#opinion": {
+        "props": {
+            "text": "**TU OPINIÓN**",
+            "blockClass":"content"
+        }
+    },
+    "rich-text#-OPINION-CONT": {
+        "props": {
+            "text": "**¡Ayúdanos a mejorar!**\nPara Coéxito es muy importante contar con tu opinión sobre la información disponible en nuestra página, por eso te invitamos a diligenciar la siguiente encuesta:",
+            "blockClass":"content"
+        }
+    },
+    "form#contacteno": {
+        "props": {
+          "entity": "OP",
+          "schema": "op1"
+        },
+        "children": [
+        //   "rich-text#formTitle",
+            "form-input.text#name-contact",
+            "form-input.text#email-contact",
+            "form-input.text#phone-contact",
+            "form-input.text#mensaje-contact",
+            "form-submit#contact"
+        ],
+        "blocks": ["form-success#-0"]
+    },
+    "form-success#-0": {
+        "children": [
+          "rich-text#successSubmit-0"
+        ]
+    },
+    "rich-text#successSubmit-0": {
+        "props": {
+          "text": "Succesfully submitted the data!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+    "form-input.text#name-contact": {
+        "props": {
+          "pointer": "#/properties/name",
+          "label": "Nombre",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#email-contact": {
+        "props": {
+          "pointer": "#/properties/email",
+          "label": "Correo electrónico",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#phone-contact": {
+        "props": {
+          "pointer": "#/properties/phone",
+          "label": "Telefóno",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#mensaje-contact": {
+        "props": {
+          "pointer": "#/properties/mensaje",
+          "label": "Mensaje",
+          "blockClass":["mensaje-largo","input-educate"]
+        }
+    },
+    "form-submit#contact": {
+        "props": {
+          "label": "Enviar"
+        }
+    },
+
+
+    // formulario servicio
+    "flex-layout.row#servicio": {
+        "props":{
+            "blockClass":"servicio"
+        },
+        "children": [
+            "flex-layout.col#servicio"
+        ]
+    },
+    "flex-layout.col#servicio": {
+        "props":{
+            "blockClass":"servicio"
+        },
+        "children": [
+            "rich-text#servicio",
+            "form#servicioCliente"
+        ]
+    },
+    "rich-text#servicio": {
+        "props": {
+            "text": "**CONTÁCTANOS**",
+            "blockClass":"content"
+        }
+    },
+    "form#servicioCliente": {
+        "props": {
+          "entity": "SC",
+          "schema": "op1"
+        },
+        "children": [
+        //   "rich-text#formTitle",
+            "form-input.text#name-client",
+            "form-input.text#last-client",
+            "form-input.text#email-client",
+            "form-input.text#phone-client",
+            "form-input.text#departamento-client",
+            "form-input.text#ciudad-client",
+            "form-input.text#direccion-client",
+            "form-input.text#asunto-client",
+            "form-input.text#mensaje-client",
+            "form-submit#client"
+        ],
+        "blocks": ["form-success#-1"]
+    },
+    "form-success#-1": {
+        "children": [
+          "rich-text#successSubmit-1"
+        ]
+    },
+    "rich-text#successSubmit-1": {
+        "props": {
+          "text": "Succesfully submitted the data!",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+    "form-input.text#name-client": {
+        "props": {
+          "pointer": "#/properties/name",
+          "label": "Nombre",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#last-client": {
+        "props": {
+          "pointer": "#/properties/lastname",
+          "label": "Apellido",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#email-client": {
+        "props": {
+          "pointer": "#/properties/email",
+          "label": "Correo electrónico",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#phone-client": {
+        "props": {
+          "pointer": "#/properties/phone",
+          "label": "Telefóno",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#departamento-client": {
+        "props": {
+          "pointer": "#/properties/departamento",
+          "label": "Departamento",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#ciudad-client": {
+        "props": {
+          "pointer": "#/properties/ciudad",
+          "label": "Ciudad",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#direccion-client": {
+        "props": {
+          "pointer": "#/properties/direccion",
+          "label": "Dirección",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#asunto-client": {
+        "props": {
+          "pointer": "#/properties/asunto",
+          "label": "Asunto",
+          "blockClass":["input-educate"]
+        }
+    },
+    "form-input.text#mensaje-client": {
+        "props": {
+          "pointer": "#/properties/mensaje",
+          "label": "Mensaje",
+          "blockClass":["mensaje-largo","input-educate"]
+        }
+    },
+    "form-submit#client": {
+        "props": {
+          "label": "Enviar"
+        }
+    }
+
+}
+  

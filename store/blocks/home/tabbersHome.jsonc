@@ -127,7 +127,7 @@
       "props": {
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text": "[Ir a Baterías](/baterias)",
+        "text": "[Ir a Baterías](/baterías)",
         "textColor": "c-on-emphasis",
         "font": "t-heading-5",
         "blockClass": "botonirmas"
@@ -215,9 +215,12 @@
     },
     "list-context.product-list#demo1": {
         "blocks": ["product-summary.shelf"],
-        "children": ["slider-layout#demo-products-1"]
-      },
-      "slider-layout#demo-products-1": {
+        "children": ["slider-layout#demo-products-1"],
+        "props":{
+          "collection":"141"
+        }
+    },
+    "slider-layout#demo-products-1": {
         "props": {
           "itemsPerPage": {
             "desktop": 4,
@@ -234,7 +237,10 @@
 
     "list-context.product-list#demo2": {
         "blocks": ["product-summary.shelf"],
-        "children": ["slider-layout#demo-products-2"]
+        "children": ["slider-layout#demo-products-2"],
+        "props":{
+          "collection":"145"
+        }
       },
       "slider-layout#demo-products-2": {
         "props": {
@@ -252,7 +258,10 @@
     },
     "list-context.product-list#demo3": {
         "blocks": ["product-summary.shelf"],
-        "children": ["slider-layout#demo-products-3"]
+        "children": ["slider-layout#demo-products-3"],
+        "props":{
+          "collection":"146"
+        }
       },
       "slider-layout#demo-products-3": {
         "props": {
@@ -270,7 +279,10 @@
     },
     "list-context.product-list#demo4": {
         "blocks": ["product-summary.shelf"],
-        "children": ["slider-layout#demo-products-4"]
+        "children": ["slider-layout#demo-products-4"],
+        "props":{
+          "collection":"143"
+        }
     },
     "slider-layout#demo-products-4": {
         "props": {
@@ -288,7 +300,10 @@
     },
     "list-context.product-list#demo5": {
         "blocks": ["product-summary.shelf"],
-        "children": ["slider-layout#demo-products-5"]
+        "children": ["slider-layout#demo-products-5"],
+        "props":{
+          "collection":"143"
+        }
     },
     "slider-layout#demo-products-5": {
         "props": {

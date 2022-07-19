@@ -58,8 +58,8 @@
 
   "login-content#default": {
     "props": {
-      "isInitialScreenOptionOnly": false,
-      "defaultOption": 1,
+      "isInitialScreenOptionOnly": true,
+      "defaultOption": 2,
       "showPasswordVerificationIntoTooltip": true
     }
   },

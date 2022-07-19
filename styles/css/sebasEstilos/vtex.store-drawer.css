@@ -1,7 +1,7 @@
 .drawer--menu {
     width: 100%!important;
-    height: 93%;
-    top: 47px;
+    height: 92%;
+    top: 53px;
 }
 .drawer--menu .closeIconContainer--menu{
     position: absolute;
@@ -22,7 +22,7 @@
 .menuIcon--menu{
     display: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
 .drawer.drawer--filtros.opened.opened--filtros {width: 85% !important;}
 

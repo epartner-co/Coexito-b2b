@@ -212,7 +212,7 @@
 .imageElementLink--imgCategoriaSlider{
   width: 97%;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .imageElement--LupaImagen {
     width: 23px;
     min-width: 23px;
@@ -323,11 +323,22 @@
 .imageElement--imagen-video{
   width: 60%;
 }
-@media (max-width: 1300px) {
+.searchBarIcon--clear-button:hover .searchIcon--clear-button{
+  color: #004D9D;
+}
+@media (max-width: 1400px) {
   .autoCompleteOuterContainer {
     width: 24rem;
+  }
+}
+@media (max-width: 1300px) {
+  .autoCompleteOuterContainer {
+    width: 18rem;
     margin-right: 3rem;
   }
+  /* .infoCardContainer--info-card-CUATERNARIO {
+    height: 311px !important;
+  } */
 }
 @media (max-width: 1710px) {
   .imageElement--bannerMenuDesk{
@@ -337,5 +348,45 @@
 @media (max-width: 1400px) {
   .imageElement--bannerMenuDesk{
     width: 70%!important;
+  }
+}
+@media (max-width: 1400px) {
+  .infoCardContainer.infoCardContainer--info-card-principal {
+    height: 466px !important;
+    background-size: cover !important;
+  }
+  .infoCardContainer--info-card-CUATERNARIO {
+    height: 310px !important;
+    background-size: 100%!important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1026px) {
+  .infoCardContainer.infoCardContainer--info-card-principal {
+    height: 874px!important;
+    background-size: cover !important;
+  }
+}
+@media (max-width: 600px) {
+  .infoCardContainer--info-educate {
+    display: flex;
+  }
+  .infoCardContainer--info-educate {
+    display: flex;
+  }
+  .infoCardTextContainer--info-educate {
+    width: 60% !important;
+  }
+  .infoCardImageContainer--info-educate {
+    width: 40% !important;
+  }
+  .infoCardTextContainer--info-educate-gratuitos {
+    width: 100% !important;
+  }
+  .infoCardImageContainer--info-educate-gratuitos {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .imageElement--image-promo:last-child{
+    margin-top: 30px;
   }
 }

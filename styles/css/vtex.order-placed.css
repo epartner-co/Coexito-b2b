@@ -78,30 +78,127 @@
     color: #004D9D;
     font-weight: bold;
     font-size: 18px;
+    padding-left: 30px;
+    display: block;
+    position: relative;
+}
+.packageDeliveryTitle::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/enviothanlyou.png) no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: 100%;
+    left: 0;
 }
 .orderPlacedMainWrapper {
     width: 90%;
     margin-left: 6%;
     padding-left: 75px;
 }
-.section--paymentMethods::before {
+.section--paymentMethods .orderPaymentWrapper::before {
     content: "Pago";
     color: #004D9D;
     font-weight: bold;
     font-size: 18px;
+    padding-left: 30px;
 }
-:global(.vtex-profile-form-3-x-profileSummary)::before {
+.orderPaymentWrapper {
+    display: block;
+}
+.section--paymentMethods::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/pago-thankyou.png) no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: 100%;
+}
+:global(.vtex-profile-form-3-x-profileSummary) .customerInfoListContainer::before {
     content: "Datos";
     color: #004D9D;
     font-weight: bold;
     font-size: 18px;
+    padding-left: 30px;
+}
+:global(.vtex-profile-form-3-x-profileSummary)::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/usuariothankyou.png) no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: 100%;
 }
 .orderPlacedWrapper {
     padding: 0;
     background: url(https://coexitob2b.vteximg.com.br/arquivos/imagen-back-check.png);
     background-size: 100%;
 }
-
+.packageHeader--delivery {
+    margin: 0%;
+}
+.packageAddressWrapper {
+    margin-top: 10px;
+}
+.customerInfoListName {
+    color: #979899;
+    margin-top: 10px;
+}
+.paymentGroup {
+    color: #979899;
+    margin: 10px 0 5px 0;
+}
+.paymentValue {
+    color: #979899;
+}
+.addressContainer {
+    color: #979899;
+}
+.productList .productListItem:first-child .productImageWrapper::before {
+    content: "Producto";
+    font-size: 15px;
+    color: #004D9D;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Inter';
+}
+.productList .productListItem:first-child .productPrice::before {
+    content: "Total";
+    font-size: 15px;
+    color: #004D9D;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    font-family: 'Inter';
+}
+.productList .productListItem:first-child .productInfoColumn::before{
+    content: "Nombre y cantidad";
+    font-size: 15px;
+    color: #004D9D;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    font-family: 'Inter';
+} 
+.productList .productListItem:first-child .productInfoColumn{
+    position: relative;
+}
+.productList .productListItem :first-child .productPrice {
+    position: relative;
+}
+@media (min-width: 1550px) {
+    .confirmationTitle::after {
+        content: "";
+        background: #ED6B10;
+        width: 170px;
+        height: 3px;
+        display: block;
+        margin-left: 42%;
+    }
+}
 @media (max-width: 900px) {
     .orderPlacedMainWrapper {
         width: 100%;
@@ -145,13 +242,55 @@
         color: #004D9D;
         font-weight: bold;
     }
-    .productListItem::before{
-        content: "Producto";
-        color: #004D9D;
-        font-weight: bold;
-        font-size: 19px;
-    }
     .productQuantity {
         display: block;
+    }
+    .productName {
+        margin-top: 60px;
+    }
+    .productList .productListItem:first-child .productInfoColumn::before{
+        display: none;
+    } 
+    .productList .productListItem:first-child .productPrice::before {
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1026px) {
+    .confirmationTitle::after {
+        content: "";
+        background: #ED6B10;
+        width: 170px;
+        height: 3px;
+        display: block;
+        margin-left: 34%;
+    }
+    .productPrice {
+        display: flex;
+        align-items: center;
+        font-family: 'Inter';
+        color: #808080;
+        position: absolute;
+        right: 36px;
+        margin-top: 0;
+        color: #004D9D;
+        font-weight: bold;
+    }
+    .productList .productListItem:first-child .productInfoColumn::before{
+        content: "Nombre y cantidad";
+        font-size: 15px;
+        color: #004D9D;
+        font-weight: bold;
+        position: absolute;
+        top: 0px;
+        font-family: 'Inter';
+    } 
+    .productList .productListItem:first-child .productPrice::before {
+        content: "Total";
+        font-size: 15px;
+        color: #004D9D;
+        font-weight: bold;
+        position: absolute;
+        top: 0px;
+        font-family: 'Inter';
     }
 }

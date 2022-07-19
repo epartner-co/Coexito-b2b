@@ -9,7 +9,12 @@
   color: #3f3f40;
   font-size: 1.25rem;
 }
-
+.sellingPriceWithTax .currencyContainer{
+  color: #004D9D;
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
 .sellingPriceValue {
   font-size: 2.25rem;
   font-weight: 700;
@@ -102,8 +107,13 @@
 .savingsPercentage--flag-desc-producto::before {
   content: "-";
 }
-
-@media (max-width: 600px) {
+.sellingPriceWithTax--summary .currencyContainer--summary{
+  font-size: 18px;
+}
+.currencyContainer--summary{
+  color: #363636 !important;
+}
+@media (max-width: 900px) {
 .currencyContainer.currencyContainer--summary {font-size: 14px;}
 
 .listPrice--summary .currencyContainer.currencyContainer--summary {font-size: 10px;}

@@ -8,7 +8,7 @@
 
   "rich-text#titleF": {
     "props": {
-      "text": "## **COEXITO MAYORISTA**",
+      "text": "## **COÉXITO MAYORISTA**",
       "blockClass": "TitleEstatics"
     }
   },
@@ -34,7 +34,7 @@
       "rich-text#Nuestro-calzado-priv",
       "rich-text#todo-sobre-pies-priv",
       "rich-text#empleado-priv",
-      "rich-text#Nuestro-compromiso-priv",
+      // "rich-text#Nuestro-compromiso-priv",
       "rich-text#aviso-legal-priv",
       "rich-text#tiendas-priv"
     ]
@@ -60,7 +60,7 @@
     },
     "rich-text#Nuestro-calzado-priv": {
       "props": {
-        "text": "[Educate](/Educate)",
+        "text": "[Edúcate](/Educate)",
         "blockClass":"links-paginas-estaticas"
       }
     },
@@ -90,7 +90,7 @@
     },
     "rich-text#tiendas-priv": {
       "props": {
-        "text": "[Radicar PQRS](/pqr)",
+        "text": "[Radicar PQRS](https://energiteca.com/servicio-al-cliente/contacto)",
         "blockClass":"links-paginas-estaticas"
       }
     },
@@ -114,7 +114,7 @@
   },
   "rich-text#priv": {
     "props": {
-      "text": "## POLÍTICAS DE POTECCIÓN DE DATOS",
+      "text": "## POLÍTICAS DE PROTECCIÓN DE DATOS",
       "blockClass": "titlePreguntasfreq"
     }
   },

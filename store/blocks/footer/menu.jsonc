@@ -104,7 +104,7 @@
       "menu-item#tvs",
       "menu-item#dis",
       "menu-item#testimonios",
-      "menu-item#trabaja-con-nosotros",
+      // "menu-item#trabaja-con-nosotros",
       "menu-item#servicios"
     ]
   },
@@ -186,7 +186,7 @@
         "type": "internal",
         "href": "/terminos-y-condiciones",
         "noFollow": true,
-        "tagTitle": "Terminos y condiciones",
+        "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"
       }
     }
@@ -398,8 +398,8 @@
       "menu-item#shorts",
       "menu-item#tank-tops",
       "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#sweatshirt"
+      // "menu-item#cropped"
     ]
   },
   "vtex.menu@2.x:menu#footer-mobile": {
@@ -469,7 +469,7 @@
       "menu-item#tvs",
       "menu-item#dis",
       "menu-item#testimonios",
-      "menu-item#trabaja-con-nosotros",
+      // "menu-item#trabaja-con-nosotros",
       "menu-item#servicios"
     ]
   },
@@ -579,8 +579,8 @@
         "type": "internal",
         "href": "/terminos-y-condiciones",
         "noFollow": false,
-        "tagTitle": "Terminos y condiciones",
-        "text": "Terminos y condiciones"
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
       }
     }
   },

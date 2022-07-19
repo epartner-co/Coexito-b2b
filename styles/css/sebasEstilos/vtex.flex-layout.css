@@ -244,8 +244,144 @@
 .flexRow--imagenes-valorm{
     display: none;
 }
+.flexRowContent--contenedor4filtros {
+    flex-wrap: wrap;
+}
+.flexRowContent--coorporativo {
+    margin-bottom: 40px;
+}
+.flexRow--contenedor-promos{
+    margin-left: 103px;
+}
+.flexRow--contenedor-promos{
+    margin-left: 103px;
+}
+.flexRow--contenedor-promos :global(.vtex-store-components-3-x-container){
+    padding: 0;
+    max-width: 100%;
+}
+.flexRow--slider-promos{
+    margin-bottom: 20px;
+    padding: 0 40px;
+}
+.flexRowContent--slider-promos .stretchChildrenWidth:first-child .flexColChild--slider-promos {
+    height: auto !important;
+}
+.flexRowContent--slider-promos .stretchChildrenWidth:first-child .flexCol--slider-promos  {
+    justify-content: center;
+    padding: 0 40px;
+}
+.flexRowContent--banner-cta-independiente {
+    padding: 0 40px;
+    margin-bottom: 30px;
+}
+.flexRowContent--divisor-slider {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.flexRowContent--banner-cta-independiente .stretchChildrenWidth{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.flexCol--banner-cta-independiente  {
+    position: relative;
+}
+.flexColChild--banner-cta-independiente:last-child {
+    position: absolute;
+    width: 100%;
+    top: 36%;
+    height: auto !important;;
+}
+.flexRowContent--infocard-educate .stretchChildrenWidth{
+    height: auto !important;
+}
+.flexRow--infocard-educate{
+    margin: 30px 0;
+}
+.flexRowContent--educate-conocer{
+    flex-wrap: wrap;
+}
+.flexRowContent--educate-conocer .stretchChildrenWidth{
+    height: auto !important;
+    width: 25% !important;
+}
+.flexRowContent--educate-conocer .stretchChildrenWidth:last-child{
+    padding: 0 !important;
+    margin:0 !important;
+}
+.flexRowContent--infocard-educate .stretchChildrenWidth:last-child{
+    padding: 0 !important;
+    margin:0 !important;
+}
+.flexCol--educate-conocer  {
+    margin-bottom: 40px;
+}
+.flexColChild--contactenos {
+    height: auto !important;
+}
+.flexRowContent--contactenos {
+    margin-top: 40px;
+}
+.flexRowContent--contactenos .stretchChildrenWidth{
+    height: auto !important;
+    padding: 0 !important;
+}
+.flexRowContent--servicio {
+    margin: 60px 0;
+}
+.flexRowContent--servicio .stretchChildrenWidth{
+    height: auto !important;
+    padding: 0 !important;
+}
+.flexColChild--servicio :global(.vtex-input-prefix__group){
+    border-color: #004D9D;
+    background: #F5F5F5;
+}
+.flexColChild--contactenos :global(.vtex-input-prefix__group){
+    border-color: #004D9D;
+    background: #F5F5F5;
+}
+.flexColChild--servicio :global(.vtex-styleguide-9-x-input ){
+    background: #F5F5F5;
+}
+.flexColChild--contactenos :global(.vtex-styleguide-9-x-input ){
+    background: #F5F5F5;
+}
+.flexColChild--servicio :global(.vtex-input){
+    width: 47%!important;
+    display: block;
+    margin-right: 14px;
+    margin-top: 15px;
+}
+.flexColChild--contactenos :global(.vtex-input){
+    width: 47%!important;
+    display: block;
+    margin-right: 14px;
+    margin-top: 15px;
+}
+.flexColChild--servicio :global(.vtex-store-form-0-x-formSubmitContainer){
+    width: 98%;
+    margin: 10px 0;
+}
+.flexColChild--contactenos :global(.vtex-store-form-0-x-formSubmitContainer){
+    width: 98%;
+    margin: 10px 0;
+}
+.flexRow--imagenes-valor {
+    margin-top: 20px;
+}
 /* .flexColChild--searchBar  */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+    .flexRow--contenedorF{
+        margin: 0 10px;
+    }
+    .flexCol--payment-methods  .flexColChild--itemRow2Footer:last-child{
+        display: flex;
+        justify-content: center;
+    }
+    .flexRowContent--newletterM .stretchChildrenWidth:first-child{
+        width: 100% !important;
+    }
     .flexRow--imagenes-valor{
         display: none;
     }
@@ -258,7 +394,7 @@
     .flexColChild--productRightColumn :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
         position: absolute;
         right: 0px;
-        bottom: 8px;
+        bottom: -2px;
         display: block !important;
     }
     /* producto mobile */
@@ -484,9 +620,6 @@
     .flexCol--bloqueprinci3 {padding-top: 9px;}
 
     .flexCol.flexCol--image1 {margin: 0 7%;}
-    .flexRow--contenedorF{
-        margin: 0 10px;
-    }
 }
 
 .flexRow--myaccount :global(.vtex-store-components-3-x-container) {margin: 0 !important;padding: 0 0 0 100px!important;width: 100%;max-width: 100%;}
@@ -500,6 +633,140 @@
 .flexRow--myaccount :global(.vtex-my-account-1-x-userGreeting) {flex-wrap: wrap;display: flex;align-items: center;}
 .flexRow--myaccount :global(.vtex-my-account-1-x-userName) {flex-wrap: wrap !important;white-space: initial;font-size: 12px;font-weight: 700;}
 .flexRow--myaccount :global(.vtex-my-account-1-x-userInfo) {align-items: center !important;justify-content: center;}
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .flexRow--myaccount :global(.vtex-store-components-3-x-container) {margin: 0 !important;padding: 0 0 0 0px!important;width: 100%;max-width: 100%;}
+}
+
+@media (max-width: 1400px) {
+    .flexRowContent--menu-link {
+        padding: 0 5px;
+    }
+    .flexRowContent.flexRowContent--Bloque2{
+        padding: 0 24%;
+    }
+}
+@media (max-width: 1300px) {
+    .flexRowContent.flexRowContent--Bloque2{
+        padding: 0 19%;
+    }
+    .flexRowContent.flexRowContent--fichas{
+        align-items: baseline;
+    }
+    .flexColChild--cta-terciario:last-child {
+        bottom: 43px;
+    }
+    .flexRowContent--menu-link {
+        position: fixed;
+        left: 0%;
+        width: 90px;
+        height: 100%;
+        margin-top: -15px;
+        z-index: 2;
+    }
+    .flexRowContent--menu-link {
+        padding: 0 3px;
+    }
+    :global(.vtex-menu-2-x-submenuContainer--Submenu) :global(.vtex-menu-2-x-submenuWrapper--isOpen){
+        position: fixed;
+        left: 90px;
+        width: 25%;
+        height: 92%;
+        padding: 0;
+        top: 83px;
+        background: rgba(0,0,0,0.5);
+    }
+    .flexCol--homeContainer {
+        padding: 0 0px 0 90px;
+    }
+    :global(.vtex-menu-2-x-styledLink--vertical)::before{
+        content: "";
+        background-size: 90%!important;
+        background-position: center;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 5px auto;
+        margin-left: -12px;
+    }
+    :global(.vtex-store-components-3-x-imageElement--bannerMenuDesk) {
+        width: 46%!important;
+    }
+}
+@media (max-width: 1400px) {
+    .flexRow.flexRow--fichaProducto :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+        position: absolute;
+        left: 45%;
+        bottom: 20%;
+    }
+    .flexColChild--myaccount:last-child{
+        padding: 0;
+    }
+    :global(.vtex-account_menu-link){
+        white-space: break-spaces;
+    }
+}
+@media (max-width: 900px) {
+    .flexRow--contenedorFL:first-child .flexRowContent--contenedorFL .stretchChildrenWidth:first-child{
+        margin-left: 12px;
+    }
+    .flexRow--contenedorFL:first-child .flexRowContent--contenedorFL .stretchChildrenWidth:nth-child(2n){
+        width: 40%!important;
+    }
+    .flexRow--contenedorFL:first-child .flexRowContent--contenedorFL .stretchChildrenWidth:last-child{
+        width: 36%!important;
+    }
+    .flexRowContent--bloqueprinci .flexCol--bloqueprinci3  {
+        justify-content: center;
+    }
+    .flexRowContent.flexRowContent--Bloque2{
+        padding: 0 12%;
+    }
+}
+@media (max-width: 1000px) {
+    .flexCol.flexCol--bloqueprinci3 {
+        display: block !important;
+    }
+}
+@media (max-width: 600px) {
+    .flexCol.flexCol--bloqueprinci3 {
+        display: flex !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--contenedorFL){
+        padding: 0;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-store-components-3-x-container){
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    .flexRowContent .flexRowContent--Bloque2 {
+        padding: 0 6%;
+    }
+    .flexRowContent--banner-cta-independiente {
+        padding: 0 10px;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 560px) {
+    .flexRowContent--namecontainer .stretchChildrenWidth:last-child .flexCol  {
+        margin: 0 10px 0 0;
+    }
+    .flexRowContent--namecontainer .stretchChildrenWidth:last-child .flexCol  :global(.vtex-product-list-0-x-deleteIcon){
+        width: 16px;
+    }
+    .flexRowContent--rowProduct .stretchChildrenWidth:first-child .flexCol  {
+        margin: 0;
+    }
+    .flexColChild--servicio :global(.vtex-input){
+        width: 100%!important;
+        display: block;
+        margin-right: 14px;
+        margin-top: 15px;
+    }
+    .flexColChild--contactenos :global(.vtex-input){
+        width: 100%!important;
+        display: block;
+        margin-right: 14px;
+        margin-top: 15px;
+    }
 }

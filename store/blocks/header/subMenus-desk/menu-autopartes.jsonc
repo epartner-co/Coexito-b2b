@@ -98,7 +98,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","baterias-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -193,7 +193,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2","menu-lv2-v2"],
+            "blockClass":["menu-lv2","menu-lv2-v2","llantas-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -255,8 +255,8 @@
             "type": "internal",
             "href": "/Llantas?initialMap=c&initialQuery=llantas&map=category-1,tipo-de-vehiculo&query=/llantas/pesados&searchState",
             "noFollow": false,
-            "tagTitle": "vehiculos pesados",
-            "text": "vehiculos pesados"
+            "tagTitle": "vehículos pesados",
+            "text": "vehículos pesados"
             }
         }
     },
@@ -305,7 +305,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","lubricantes-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -399,7 +399,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","filtros-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -544,7 +544,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","frenos-sub"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -655,7 +655,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","bujias"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -749,7 +749,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","bornes"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -843,7 +843,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","refrigerentes"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -937,7 +937,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","agua-desmineralizada"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,

@@ -15,14 +15,17 @@
 .styledLinkContent--cierreSubMneu::before{
     content: "";
     display: block;
-    background: url(/arquivos/cierreMenuIcon.png);
+    background: url(/arquivos/cierreMenuIcon.png) no-repeat;
     background-size: 100%;
     width: 20px;
-    height: 20px;
+    height: 19px;
     margin-right: 10px;
 }
 .styledLinkContent--cierreSubMneu {
     justify-content: flex-start;
+    white-space: break-spaces;
+    text-align: left;
+    align-items: center;
 }
 /* cotizador */
 :global(.vtex-orderquote-1-x-buttonsContainer) :global(.vtex-button){
@@ -56,6 +59,7 @@
     font-weight: bold!important;
     text-transform: uppercase;
     padding: 0;
+    text-align: center;
 }
 :global(.vtex-orderquote-1-x-containerView){
     padding: 0 0 0 8%;
@@ -65,7 +69,41 @@
     background: #ED6B10;
     width: 170px;
     height: 3px;
+    margin-left: 37.5%;
     display: block;
+}
+:global(.vtex-orderquote-1-x-buttonDelete) :global(.vtex-button__label){
+    border-color: red !important;
+}
+:global(.vtex-orderquote-1-x-buttonUse) :global(.vtex-button__label){
+    border: 0 !important;
+}
+@media (max-width: 1400px) {
+    :global(.vtex-orderquote-1-x-containerList) :global(.vtex-pageHeader__title)::after{
+        margin-left: 35.5% !important;
+    }
+    :global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-pageHeader__title)::after{
+        margin-left: 37.5% !important;
+    }
+}
+@media (max-width: 1300px) {
+    :global(.vtex-orderquote-1-x-containerList) :global(.vtex-pageHeader__title)::after{
+        margin-left: 34.5% !important;
+    }
+    :global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-pageHeader__title)::after{
+        margin-left: 35.5% !important;
+    }
+}
+@media (max-width: 600px) {
+    :global(.vtex-pageHeader__title){
+        font-size: 18px !important;
+    }
+    :global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-pageHeader__title)::after{
+      margin-left: 17.5%!important;
+    }
+    :global(.vtex-orderquote-1-x-containerList) :global(.vtex-pageHeader__title)::after{
+        margin-left: 13.5% !important;
+      }
 }
 :global(.vtex-orderquote-1-x-containerCreate ){
     padding:0 30px 0 120px ;
@@ -76,7 +114,318 @@
 :global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-pageHeader__container){
     padding-left: 0;
 }
-@media (max-width: 600px) {
+.menuItem--cierre {
+    position: fixed;
+    left: 103px;
+    width: 100%;
+    display: none;
+    height: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+}
+.menuItem--cierre:hover {
+    background: rgba(0,0,0,0.5);
+}
+.styledLink--auto-camioneta::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/carro-coexito-2-new-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--auto-camioneta::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/carro-1-coexito-2-new-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--vehiculos-pesados::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/vehiculo-pesado-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--vehiculos-pesados::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/vehiculo-pesado-1-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--motos::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/moto-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--motos::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/moto-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--estacionarias::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/estacionarias-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--estacionarias::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/estacionarias-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--baterias-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/baterias-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 52px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--baterias-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/baterias-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 52px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--llantas-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/llantas-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--llantas-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/llantas-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--lubricantes-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/lubricantes-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--lubricantes-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/lubricantes-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--filtros-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/filtros-coexito-2-nohver.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--filtros-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/filtros-1-coexito-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--frenos-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/frenos-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--frenos-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/frenos-1-coexito-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--bujias::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/bujia-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--bujias::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/bujia-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--bornes::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/bornes-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--bornes::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/bornes-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--refrigerentes::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/refrigerantes-nohover-coexito.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--refrigerentes::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/refrigerantes-1-hover-coexito.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--agua-desmineralizada::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/agua-nohover-coexito.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--agua-desmineralizada::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/agua-1-hover-coexiro.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 46px;
+    margin: 0 auto;
+    display: block;
+}
+.styledLink--balineras-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/balineras-coexito-2-nohover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--subMneusMTrigger--hidden):hover .styledLink--balineras-sub::before {
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/balineras-1-coexito-2-hover.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.styledLinkContainer--menu-lv2 {
+    min-height: 46px;
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 900px) {
+    .styledLink--menu-lv2::before {
+        display: none;
+    }
+    .styledLinkContainer--menu-lv2 {
+        min-height: auto;
+        height: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
     /* cotizador */
     :global(.vtex-orderquote-1-x-containerList){
         padding:0 10px 0 10px ;
@@ -107,7 +456,7 @@
       height: 35px;
       display: block;
       margin: 0 auto;
-      position: absolute;
+      position: relative;
       right: 0;
       top: 10%;
       left: 0;

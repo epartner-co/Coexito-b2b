@@ -93,7 +93,7 @@
     "props": {
       "blockClass":"verCarrito",
       "label":"Finalizar pedido",
-      "finishShoppingButtonLink": "/checkout/"
+      "finishShoppingButtonLink": "/checkout/#/cart"
     }
   },
 
@@ -135,7 +135,7 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Tu carrito esta vacio."
+      "text": "Tu carrito está vacío."
     }
   }
 }

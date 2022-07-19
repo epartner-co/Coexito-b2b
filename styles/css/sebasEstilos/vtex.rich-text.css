@@ -168,6 +168,7 @@
 }
 .strong--titlePreguntasfreqContenido{
     color: #182841 !important;
+    font-size: 14px;
 }
 .listItem::marker{
     display: none;
@@ -175,7 +176,10 @@
 .link--titlePreguntasfreqContenido{
     color: #ED6B10;
 }
-@media (max-width: 600px) {
+.container--links-conocer {
+    justify-content: center;   
+}
+@media (max-width: 900px) {
     :global(.vtex-flex-layout-0-x-flexColChild--productContainer) .headingLevel2--shelfTitle {
         padding: 0;
         text-align: left;
@@ -237,4 +241,231 @@
 .wrapper.wrapper--MarcaD {margin: 0;}
 
 .container.container--MarcaD {margin: 0;}
+.wrapper.wrapper--lineaC {
+    border: 1px solid #015B98;
+    border-radius: 5px;
+    width: 100%;
+}
+.paragraph.paragraph--lineaC {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0 6%;
+    position: relative;
+}
+.paragraph.paragraph--lineaC::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/flecha-hacia-abajo.png);
+    background-size: 100%;
+    right: 10%;
+    top: 4px;
+}
+.container.container--lineaC {
+    margin: 0;
+}
+.wrapper--tituloCD .paragraph--butomFil{
+    margin: 0;
+    padding: 11px 0 4px 0;
+    font-size: 12px;
+}
+.container.container--valorcorporativos {
+    margin: 0 !important;
+}
+.container--title-promos {
+    justify-content: center;
+}
+.container--links-slider-promo {
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+}
+.link--links-slider-promo{
+    padding: 10px 21px;
+    text-decoration: none;
+    background: #004D9D;
+    color: white;
+    border: 1px solid #004D9D;
+    font-size: 13px;
+    border-radius: 5px;
+    transition: 400ms all;
+}
+.link--links-slider-promo:hover{
+    color: #004D9D;
+    background: white;
+}
+.paragraph--links-slider-promo{
+    margin: 10px 0 20px 0;
+}
+.paragraph--title-slider-promo{
+    color: #ED6B10;
+    font-weight: bold;
+}
+.container--ver-mas-promo {
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.link--ver-mas-promo{
+    margin-right: 60px;
+    border-radius: 5px;
+    background: #004D9D;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #004D9D;
+    transition: 400ms all;
+}
+.link--ver-mas-promo:hover{
+    color: #004D9D;
+    background: white;
+}
+.container--botton-ingresa {
+    justify-content: center;
+}
+.link--botton-ingresa{
+    padding: 10px 30px;
+    background: #004D9D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container--titulo-disclusure-apertura {
+    margin: 0 !important;
+}
+.container--titulo-disclusure-apertura .paragraph{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    color: #182841;
+}
+.link--links-conocer{
+    background: transparent;
+    color: #808080;
+    border: 1px solid #808080;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 13px 0;
+    display: block;
+    font-size: 14px;
+    transition: 400ms all;
+    text-align: center;
+}
+.link--links-conocer:hover{
+    background: #004D9D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.wrapper--links-conocer{
+    width: 100%;
+}
+.container--titulo-educate {
+    justify-content: center;
+}
+.paragraph--titulo-educate{
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    font-weight: bold;
+    color: #182841;
 
+}
+.container--titlePreguntasfreqContenido {
+    width: 100%;
+}
+.paragraph--titlePreguntasfreqContenido{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #808080;
+}
+.container--content {
+    justify-content: center;
+}
+.strong--content{
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* azul 3 */
+
+    color: #182841;
+}
+.paragraph--content{
+    margin-bottom: 5px;
+}
+.paragraph--content{
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #808080;
+}
+.container--links-ver-mas-video {
+    justify-content: center;
+}
+.link--links-ver-mas-video{
+    border: 1px solid #004D9D;
+    border-radius: 5px;
+    color: #004D9D;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 40px;
+}
+.link--botton-ingresa{
+    border: 1px solid #004D9D;
+    transition: 400ms all;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.link--botton-ingresa::after{
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/flecha-blanca-edutace.png) no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: 10px;
+}
+.link--botton-ingresa:hover{
+    background: white;
+    color: #004D9D;
+
+}
+.link--botton-ingresa:hover::after{
+    content: "";
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/flecha-azul-educate.png) no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: 10px;
+}
+@media (max-width: 600px) {
+    .paragraph--boton4paso {
+        margin: 0 0 0 0;
+        font-size: 12px;
+        padding: 5px 0 5px 0!important;
+    }
+    .paragraph.paragraph--botonF2 {
+        font-size: 13px!important;
+    }
+    .paragraph.paragraph--botonF2.paragraph--botonbuscar {
+        padding: 7px 0 0 7px!important;
+    }
+    .paragraph.paragraph--botonF2.paragraph--botonantes4 {
+        padding: 7px 14px 7px 30px;
+    }
+}

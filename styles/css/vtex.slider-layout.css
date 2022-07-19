@@ -112,14 +112,20 @@
 .paginationDot {
   width: 10px;
   height: 10px;
-  background: white;
+  background: #D3D3D3;
 }
 .paginationDot--isActive {
   background: #004D9D;
   width: 50px !important;
   border-radius: 50px;
 }
-@media (max-width: 600px) {
+.sliderLeftArrow--slider-promo {
+  margin-left: 20px;
+}
+.sliderRightArrow--slider-promo {
+  margin-right: 20px;
+}
+@media (max-width: 900px) {
   .sliderLayoutContainer--shelf{
     padding: 0 !important;
   }
@@ -162,7 +168,7 @@
 .sliderLayoutContainer.sliderLayoutContainer--vitrinaGigante{
   background: transparent;
   margin: 0 auto;
-  width: 77%;
+  width: 85%;
 }
 .sliderTrackContainer--historia-carousel {
   width: 100%;
@@ -180,8 +186,51 @@
 .sliderLayoutContainer--historia-carousel{
   margin-bottom: 40px;
 }
+.slideChildrenContainer--vitrinapeque :global(.vtex-product-summary-2-x-clearLink) :global(.vtex-flex-layout-0-x-flexRowContent--precio){
+  border-top: 0;
+}
 @media (max-width: 1400px) {
   .sliderLayoutContainer.sliderLayoutContainer--vitrinaGigante{
-    width: 97%;
+    width: 96%;
+    padding: 0 !important;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1026px) {
+  .sliderLayoutContainer--banner-tres-promo .paginationDotsContainer--banner-tres-promo{
+    margin-bottom: 21px;
+  }
+  .sliderLayoutContainer--banner-tres-promo {
+    margin: 0 0px !important;
+    width: 100% !important;
+  }
+  .sliderTrackContainer--motopartes {
+    padding: 0px 7px !important;
+  }
+}
+@media screen and (max-width: 600px){
+  .sliderLayoutContainer--banner-dos .paginationDotsContainer--banner-dos{
+    margin-bottom: -30px;
+  }
+  .sliderLayoutContainer--last .paginationDotsContainer--last {
+    margin-bottom: -30px;
+  }
+  .sliderLayoutContainer.sliderLayoutContainer--banner-tres-promo {
+    width: 100%;
+    margin: 0;
+  }
+  .sliderLayoutContainer--banner-tres-promo .paginationDotsContainer--banner-tres-promo{
+    margin-bottom: 20px;
+  }
+  .slideChildrenContainer.slideChildrenContainer--motopartes {
+    padding: 0;
+  }
+  .sliderTrackContainer--motopartes {
+    padding: 0 10px !important;
+  }
+  .slideChildrenContainer--banner-tres-promo{
+    padding: 0 !important;
+  }
+  .slideChildrenContainer--banner-dos {
+    padding: 0 0px !important;
   }
 }

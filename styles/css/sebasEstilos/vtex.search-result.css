@@ -140,7 +140,7 @@
     top: 30%;
     right: 11%;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .filter__container--selectedFilters :global(.vtex-checkbox__label) {
     color: #363636;
     font-size: 12px !important;
@@ -210,6 +210,17 @@
     .filtersWrapperMobile .filterPopupTitle {
         text-transform: uppercase;
         color: #182841;
+    }
+    .filterPopupTitle {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .orderByButton {
+        padding: 13px 6px;
+        border-radius: 5px;
+        margin: 0px 0;
+        border: 1px solid #015B98;
+        background: white;
     }
     .filterApplyButtonWrapper :global(.vtex-button){
         background: #004D9D;

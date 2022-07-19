@@ -36,7 +36,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 .quantitySelectorContainer {display: none !important;}
 
 .quantitySelectorContainer.quantitySelectorContainer--quantitymov {display: block !important;}

@@ -253,7 +253,7 @@
     }
   },
   "disclosure-content#FiltroMaster": {
-    "children": ["rich-text#tituloF1","rich-text#ContenidoF1","rich-text#tituloF2","rich-text#ContenidoF2","rich-text#tituloF3", "rich-text#ContenidoF3", "rich-text#tituloF4","rich-text#ContenidoF4", "rich-text#botonfiltrar"],
+    "children": ["rich-text#tituloF1","rich-text#ContenidoF1","rich-text#tituloF2","rich-text#ContenidoF2","rich-text#tituloF3", "rich-text#ContenidoF3", "rich-text#tituloF4","rich-text#ContenidoF4", "rich-text#tituloF5","rich-text#contenidoF5","rich-text#botonfiltrar"],
     "props":{
       "blockClass": ["ContenidoS","Filtro-master"]
     }
@@ -286,6 +286,18 @@
     "props": {
       "text": "Seleccione un año",
       "blockClass":"tituloCD"
+    }
+  },
+  "rich-text#tituloF5": {
+    "props": {
+      "text": "Seleccione una linea",
+      "blockClass":"tituloCD"
+    }
+  },
+  "rich-text#contenidoF5": {
+    "props": {
+      "text": "Linea vehículo",
+      "blockClass":"lineaC"
     }
   },
   "rich-text#ContenidoF2": {

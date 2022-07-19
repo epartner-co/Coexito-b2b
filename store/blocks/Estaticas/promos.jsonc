@@ -1,0 +1,1648 @@
+{
+    "store.custom#promos": {
+        "children": [
+            "flex-layout.row#contenedor-promos"
+        ]
+    },
+    "flex-layout.row#contenedor-promos":{
+        "props": {
+          "blockClass": ["contenedor-promos"]
+        },
+        "children": [
+            "flex-layout.col#contenedor-promos"
+        ]
+    },
+    "flex-layout.col#contenedor-promos":{
+        "props": {
+          "blockClass": ["contenedor-promos"]
+        },
+        "children": [
+            "responsive-layout.desktop#principal-promos",
+            "responsive-layout.tablet#principal-promos",
+            "responsive-layout.phone#principal-promos",
+            "rich-text#sistema-electrico",
+            "flex-layout.row#slider-promo-1",
+            "flex-layout.row#slider-promo-2",
+            "flex-layout.row#slider-promo-3",
+
+            "flex-layout.row#banner",
+            "rich-text#protecion-motor",
+            "flex-layout.row#slider-promo-4",
+            "list-context.image-list#banner-3",
+            "rich-text#seguridad-activa",
+            "flex-layout.row#disconnect",
+
+            "list-context.image-list#banner-DOS",
+            "flex-layout.row#slider-promo-5",
+            "rich-text#motopartes",
+
+            "responsive-layout.desktop#bannermosaico",
+            "responsive-layout.tablet#bannermosaico",
+            "responsive-layout.phone#bannermosaico",
+            "rich-text#AUTOPARTES",
+            "flex-layout.row#slider-promo-6"
+        ]
+    },
+    "responsive-layout.desktop#principal-promos": {
+        "children": ["image#banner-promo"]
+    },
+    "responsive-layout.tablet#principal-promos": {
+        "children": ["image#banner-promo"]
+    },
+    "responsive-layout.phone#principal-promos": {
+        "children": ["image#banner-promoM"]
+    },
+    "image#banner-promo": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/banner-principal-catalogo.png",
+          "blockClass":"PRINCIPAL-PROMO"
+        }
+    },
+    "image#banner-promoM": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/principal-promos-m.png",
+          "blockClass":"PRINCIPAL-PROMO"
+        }
+    },
+    "rich-text#sistema-electrico": {
+        "props": {
+          "text": "## SISTEMA ELÉCTRICO",
+          "blockClass": ["shelfTitle","title-promos","sistema-electrico"]
+        }
+    },
+    // inicio promos
+    "flex-layout.row#slider-promo-1": {
+        "children": [
+            "flex-layout.col#slider-promo-1-1",
+            "flex-layout.col#slider-promo-1-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos"
+        }
+    },
+    // parte izquierda
+    "flex-layout.col#slider-promo-1-1": {
+        "children": [
+            "rich-text#title-lateral-derecho-1-1",
+            "rich-text#title-lateral-derecho-1-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"30%"
+        }
+    },
+    "rich-text#title-lateral-derecho-1-1": {
+        "props": {
+          "text":
+          "BATERÍAS MAC SILVER",
+          "blockClass": "title-slider-promo"
+        }
+    },
+    "rich-text#title-lateral-derecho-1-2": {
+        "props": {
+          "text":
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "blockClass": "content-slider-promo"
+        }
+    },
+    // parte derecha
+    "flex-layout.col#slider-promo-1-2": {
+        "children": [
+            "slider-layout#sider-promo-1"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"70%"
+        }
+    },
+    "slider-layout#sider-promo-1": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"always",
+          "blockClass": ["carousel","slider-promo"]
+        },
+        "children":[
+            "flex-layout.col#card-1-1",
+            "flex-layout.col#card-1-2",
+            "flex-layout.col#card-1-3",
+            "flex-layout.col#card-1-4",
+            "flex-layout.col#card-1-1"
+        ]
+    },
+    "flex-layout.col#card-1-1":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-1-1-1",
+            "image#image-promo-1-1-2",
+            "image#image-promo-1-1-3",
+            "rich-text#link-promo-1-1-1"
+        ]
+    },
+    "image#image-promo-1-1-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-1-1-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-1-1-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-1-1-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 2
+    "flex-layout.col#card-1-2":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-1-2-1",
+            "image#image-promo-1-2-2",
+            "image#image-promo-1-2-3",
+            "rich-text#link-promo-1-2-1"
+        ]
+    },
+    "image#image-promo-1-2-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-1-2-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-1-2-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-1-2-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 3
+    "flex-layout.col#card-1-3":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-1-3-1",
+            "image#image-promo-1-3-2",
+            "image#image-promo-1-3-3",
+            "rich-text#link-promo-1-3-1"
+        ]
+    },
+    "image#image-promo-1-3-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-1-3-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-1-3-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-1-3-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 4
+    "flex-layout.col#card-1-4":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-1-4-1",
+            "image#image-promo-1-4-2",
+            "image#image-promo-1-4-3",
+            "rich-text#link-promo-1-4-1"
+        ]
+    },
+    "image#image-promo-1-4-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-1-4-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-1-4-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-1-4-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // inicio promos 2
+    "flex-layout.row#slider-promo-2": {
+        "children": [
+            "flex-layout.col#slider-promo-2-1",
+            "flex-layout.col#slider-promo-2-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos"
+        }
+    },
+    // parte izquierda
+    "flex-layout.col#slider-promo-2-1": {
+        "children": [
+            "rich-text#title-lateral-derecho-2-1",
+            "rich-text#title-lateral-derecho-2-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"30%"
+        }
+    },
+    "rich-text#title-lateral-derecho-2-1": {
+        "props": {
+          "text":
+          "BATERÍAS MAC SILVER",
+          "blockClass": "title-slider-promo"
+        }
+    },
+    "rich-text#title-lateral-derecho-2-2": {
+        "props": {
+          "text":
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "blockClass": "content-slider-promo"
+        }
+    },
+    // parte derecha
+    "flex-layout.col#slider-promo-2-2": {
+        "children": [
+            "slider-layout#sider-promo-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"70%"
+        }
+    },
+    "slider-layout#sider-promo-2": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"always",
+          "blockClass": ["carousel","slider-promo"]
+        },
+        "children":[
+            "flex-layout.col#card-2-1",
+            "flex-layout.col#card-2-2",
+            "flex-layout.col#card-2-3",
+            "flex-layout.col#card-2-4",
+            "flex-layout.col#card-2-1"
+        ]
+    },
+    "flex-layout.col#card-2-1":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-2-1-1",
+            "image#image-promo-2-1-2",
+            "image#image-promo-2-1-3",
+            "rich-text#link-promo-2-1-1"
+        ]
+    },
+    "image#image-promo-2-1-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-2-1-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-2-1-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-2-1-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 2
+    "flex-layout.col#card-2-2":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-2-2-1",
+            "image#image-promo-2-2-2",
+            "image#image-promo-2-2-3",
+            "rich-text#link-promo-2-2-1"
+        ]
+    },
+    "image#image-promo-2-2-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-2-2-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-2-2-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-2-2-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 3
+    "flex-layout.col#card-2-3":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-2-3-1",
+            "image#image-promo-2-3-2",
+            "image#image-promo-2-3-3",
+            "rich-text#link-promo-2-3-1"
+        ]
+    },
+    "image#image-promo-2-3-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-2-3-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-2-3-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-2-3-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 4
+    "flex-layout.col#card-2-4":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-2-4-1",
+            "image#image-promo-2-4-2",
+            "image#image-promo-2-4-3",
+            "rich-text#link-promo-2-4-1"
+        ]
+    },
+    "image#image-promo-2-4-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-2-4-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-2-4-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-2-4-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // inicio promos 3
+    "flex-layout.row#slider-promo-3": {
+        "children": [
+            "flex-layout.col#slider-promo-3-1",
+            "flex-layout.col#slider-promo-3-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos"
+        }
+    },
+    // parte izquierda
+    "flex-layout.col#slider-promo-3-1": {
+        "children": [
+            "rich-text#title-lateral-derecho-3-1",
+            "rich-text#title-lateral-derecho-3-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"30%"
+        }
+    },
+    "rich-text#title-lateral-derecho-3-1": {
+        "props": {
+          "text":
+          "BATERÍAS MAC SILVER",
+          "blockClass": "title-slider-promo"
+        }
+    },
+    "rich-text#title-lateral-derecho-3-2": {
+        "props": {
+          "text":
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "blockClass": "content-slider-promo"
+        }
+    },
+    // parte derecha
+    "flex-layout.col#slider-promo-3-2": {
+        "children": [
+            "slider-layout#sider-promo-3"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"70%"
+        }
+    },
+    "slider-layout#sider-promo-3": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"always",
+          "blockClass": ["carousel","slider-promo"]
+        },
+        "children":[
+            "flex-layout.col#card-3-1",
+            "flex-layout.col#card-3-2",
+            "flex-layout.col#card-3-3",
+            "flex-layout.col#card-3-4",
+            "flex-layout.col#card-3-1"
+        ]
+    },
+    "flex-layout.col#card-3-1":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-3-1-1",
+            "image#image-promo-3-1-2",
+            "image#image-promo-3-1-3",
+            "rich-text#link-promo-3-1-1"
+        ]
+    },
+    "image#image-promo-3-1-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-3-1-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-3-1-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-3-1-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 2
+    "flex-layout.col#card-3-2":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-3-2-1",
+            "image#image-promo-3-2-2",
+            "image#image-promo-3-2-3",
+            "rich-text#link-promo-3-2-1"
+        ]
+    },
+    "image#image-promo-3-2-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-3-2-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-3-2-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-3-2-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 3
+    "flex-layout.col#card-3-3":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-3-3-1",
+            "image#image-promo-3-3-2",
+            "image#image-promo-3-3-3",
+            "rich-text#link-promo-3-3-1"
+        ]
+    },
+    "image#image-promo-3-3-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-3-3-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-3-3-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-3-3-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 4
+    "flex-layout.col#card-3-4":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-3-4-1",
+            "image#image-promo-3-4-2",
+            "image#image-promo-3-4-3",
+            "rich-text#link-promo-3-4-1"
+        ]
+    },
+    "image#image-promo-3-4-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-3-4-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-3-4-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-3-4-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+
+
+    // segundo banner -----------------------------------------
+    "flex-layout.row#banner":{
+        "props": {
+          "blockClass": ["banner-cta-independiente"]
+        },
+        "children": [
+            "flex-layout.col#banner"
+        ]
+    },
+    "flex-layout.col#banner":{
+        "props": {
+          "blockClass": ["banner-cta-independiente"]
+        },
+        "children": [
+            "responsive-layout.desktop#segundoBanner",
+            "responsive-layout.tablet#segundoBanner",
+            "responsive-layout.phone#segundoBanner",
+            "rich-text#ver-mas-banner"
+        ]
+    },
+    "responsive-layout.desktop#segundoBanner": {
+        "children": ["image#segundo-banner"]
+    },
+    "responsive-layout.tablet#segundoBanner": {
+        "children": ["image#segundo-banner"]
+    },
+    "responsive-layout.phone#segundoBanner": {
+        "children": ["image#segundo-bannerM"]
+    },
+    "image#segundo-banner": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-dos-coexito-promo.png",
+          "blockClass":"imagen-dos"
+        }
+    },
+    "image#segundo-bannerM": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-dos-m.png",
+          "blockClass":"imagen-dos"
+        }
+    },
+    "rich-text#ver-mas-banner": {
+        "props": {
+          "text": "[VER MÁS](/)",
+          "blockClass": ["ver-mas-promo"]
+        }
+    },
+
+
+
+    // slider 4
+    // inicio promos 4
+    "rich-text#protecion-motor": {
+      "props": {
+        "text": "## PROTECCIÓN AL MOTOR",
+        "blockClass": ["shelfTitle","title-promos","proteccion-motor"]
+      }
+    },
+    "flex-layout.row#slider-promo-4": {
+        "children": [
+            "flex-layout.col#slider-promo-4-1",
+            "flex-layout.col#slider-promo-4-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos"
+        }
+    },
+    // parte izquierda
+    "flex-layout.col#slider-promo-4-1": {
+        "children": [
+            "rich-text#title-lateral-derecho-4-1",
+            "rich-text#title-lateral-derecho-4-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"30%"
+        }
+    },
+    "rich-text#title-lateral-derecho-4-1": {
+        "props": {
+          "text":
+          "BATERÍAS MAC SILVER",
+          "blockClass": "title-slider-promo"
+        }
+    },
+    "rich-text#title-lateral-derecho-4-2": {
+        "props": {
+          "text":
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "blockClass": "content-slider-promo"
+        }
+    },
+    // parte derecha
+    "flex-layout.col#slider-promo-4-2": {
+        "children": [
+            "slider-layout#sider-promo-4"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"70%"
+        }
+    },
+    "slider-layout#sider-promo-4": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"always",
+          "blockClass": ["carousel","slider-promo"]
+        },
+        "children":[
+            "flex-layout.col#card-4-1",
+            "flex-layout.col#card-4-2",
+            "flex-layout.col#card-4-3",
+            "flex-layout.col#card-4-4",
+            "flex-layout.col#card-4-1"
+        ]
+    },
+    "flex-layout.col#card-4-1":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-4-1-1",
+            "image#image-promo-4-1-2",
+            "image#image-promo-4-1-3",
+            "rich-text#link-promo-4-1-1"
+        ]
+    },
+    "image#image-promo-4-1-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-4-1-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-4-1-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-4-1-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 2
+    "flex-layout.col#card-4-2":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-4-2-1",
+            "image#image-promo-4-2-2",
+            "image#image-promo-4-2-3",
+            "rich-text#link-promo-4-2-1"
+        ]
+    },
+    "image#image-promo-4-2-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-4-2-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-4-2-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-4-2-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 3
+    "flex-layout.col#card-4-3":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-4-3-1",
+            "image#image-promo-4-3-2",
+            "image#image-promo-4-3-3",
+            "rich-text#link-promo-4-3-1"
+        ]
+    },
+    "image#image-promo-4-3-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-4-3-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-4-3-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-4-3-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 4
+    "flex-layout.col#card-4-4":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-4-4-1",
+            "image#image-promo-4-4-2",
+            "image#image-promo-4-4-3",
+            "rich-text#link-promo-4-4-1"
+        ]
+    },
+    "image#image-promo-4-4-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-4-4-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-4-4-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-4-4-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+
+    // BANNER TRES
+    "list-context.image-list#banner-3": {
+        "children": ["slider-layout#demo-images-banner-3"],
+        "props": {
+          "height": 720,
+          "images": [
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/banner-promo-3-2.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/banner-promo-3-2.png",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/banner-promo-3-3.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/banner-promo-3-3.png",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/banner-promo-3-1.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/banner-promo-3-1.png",
+              "link":{
+                "url":"/"
+              }
+            }
+          ]
+        }
+    },
+    "slider-layout#demo-images-banner-3": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": ["carousel","banner-tres-promo"]
+        }
+    },
+
+
+    // seguridad activa
+    "rich-text#seguridad-activa": {
+        "props": {
+          "text": "## SEGURIDAD ACTIVA",
+          "blockClass": ["shelfTitle","title-promos","seguridad-activa"]
+        }
+    },
+    "flex-layout.row#disconnect": {
+        "children": [
+            "flex-layout.col#activa-1"
+        ],
+        "props":{
+          "blockClass":["slider-promos","seguridad-activa"]
+        }
+    },
+    "flex-layout.col#activa-1": {
+        "children": [
+            "responsive-layout.desktop#activa",
+            "responsive-layout.tablet#activa",
+            "responsive-layout.phone#activa"
+        ],
+        "props":{
+          "blockClass":"slider-activa"
+        }
+    },
+    "responsive-layout.desktop#activa": {
+        "children": ["image#activa"]
+    },
+    "responsive-layout.tablet#activa": {
+        "children": ["image#activa"]
+    },
+    "responsive-layout.phone#activa": {
+        "children": ["image#activaM","image#activa-2-M"]
+    },
+    "image#activa": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/activa-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#activaM": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/cta-nfo-new.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#activa-2-M": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/banner-imagen-4m-promo.png",
+          "blockClass":"image-promo"
+        }
+    },
+    // BANNER DOS
+    "list-context.image-list#banner-DOS": {
+        "children": ["slider-layout#demo-images-banner-DOS"],
+        "props": {
+          "height": 720,
+          "images": [
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/BANNERDOS1.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/BANNERDOS1.png",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/BANNERDOS2.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/BANNERDOS2.png",
+              "link":{
+                "url":"/"
+              }
+            }
+          ]
+        }
+    },
+    "slider-layout#demo-images-banner-DOS": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": ["carousel","banner-dos"]
+        }
+    },
+
+
+
+    // slider 5
+    // inicio promos 5
+    "flex-layout.row#slider-promo-5": {
+        "children": [
+            "flex-layout.col#slider-promo-5-1",
+            "flex-layout.col#slider-promo-5-2"
+        ],
+        "props":{
+          "blockClass":["slider-promos","divisor-slider"]
+        }
+    },
+    // parte izquierda
+    "flex-layout.col#slider-promo-5-1": {
+        "children": [
+            "rich-text#title-lateral-derecho-5-1",
+            "rich-text#title-lateral-derecho-5-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"30%"
+        }
+    },
+    "rich-text#title-lateral-derecho-5-1": {
+        "props": {
+          "text":
+          "BATERÍAS MAC SILVER",
+          "blockClass": "title-slider-promo"
+        }
+    },
+    "rich-text#title-lateral-derecho-5-2": {
+        "props": {
+          "text":
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "blockClass": "content-slider-promo"
+        }
+    },
+    // parte derecha
+    "flex-layout.col#slider-promo-5-2": {
+        "children": [
+            "slider-layout#sider-promo-5"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"70%"
+        }
+    },
+    "slider-layout#sider-promo-5": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"always",
+          "blockClass": ["carousel","slider-promo"]
+        },
+        "children":[
+            "flex-layout.col#card-5-1",
+            "flex-layout.col#card-5-2",
+            "flex-layout.col#card-5-3",
+            "flex-layout.col#card-5-4",
+            "flex-layout.col#card-5-1"
+        ]
+    },
+    "flex-layout.col#card-5-1":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-5-1-1",
+            "image#image-promo-5-1-2",
+            "image#image-promo-5-1-3",
+            "rich-text#link-promo-5-1-1"
+        ]
+    },
+    "image#image-promo-5-1-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-5-1-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-5-1-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-5-1-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 2
+    "flex-layout.col#card-5-2":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-5-2-1",
+            "image#image-promo-5-2-2",
+            "image#image-promo-5-2-3",
+            "rich-text#link-promo-5-2-1"
+        ]
+    },
+    "image#image-promo-5-2-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-5-2-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-5-2-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-5-2-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 3
+    "flex-layout.col#card-5-3":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-5-3-1",
+            "image#image-promo-5-3-2",
+            "image#image-promo-5-3-3",
+            "rich-text#link-promo-5-3-1"
+        ]
+    },
+    "image#image-promo-5-3-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-5-3-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-5-3-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-5-3-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 4
+    "flex-layout.col#card-5-4":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-5-4-1",
+            "image#image-promo-5-4-2",
+            "image#image-promo-5-4-3",
+            "rich-text#link-promo-5-4-1"
+        ]
+    },
+    "image#image-promo-5-4-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-5-4-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-5-4-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-5-4-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+
+    // motopartes
+    "rich-text#motopartes": {
+        "props": {
+          "text": "## MOTOPARTES",
+          "blockClass": ["shelfTitle","title-promos","motopartes"]
+        }
+    },
+    // BANNER DOS-1
+    "responsive-layout.desktop#bannermosaico": {
+        "children": ["list-context.image-list#banner-DOS-1","list-context.image-list#banner-DOS-2"]
+    },
+    "responsive-layout.tablet#bannermosaico": {
+        "children": ["list-context.image-list#banner-DOS-1","list-context.image-list#banner-DOS-2"]
+    },
+    "responsive-layout.phone#bannermosaico": {
+        "children": ["list-context.image-list#banner-DOS-2M"]
+    },
+    "list-context.image-list#banner-DOS-1": {
+        "children": ["slider-layout#demo-images-banner-DOS-1"],
+        "props": {
+          "height": 720,
+          "images": [
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-1.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-1.png",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-2.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-2.png",
+              "link":{
+                "url":"/"
+              }
+            }
+          ]
+        }
+    },
+    "list-context.image-list#banner-DOS-2": {
+        "children": ["slider-layout#demo-images-banner-DOS-2"],
+        "props": {
+          "height": 720,
+          "images": [
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-3.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-3.png",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-4.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-4.png",
+              "link":{
+                "url":"/"
+              }
+            }
+          ]
+        }
+    },
+    "list-context.image-list#banner-DOS-2M": {
+        "children": ["slider-layout#demo-images-banner-DOS-2"],
+        "props": {
+          "height": 720,
+          "images": [
+            {
+            "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-1.png",
+                "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-1.png",
+                "link":{
+                    "url":"/"
+                }
+            },
+            {
+            "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-2.png",
+                "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-2.png",
+                "link":{
+                    "url":"/"
+                }
+            },
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-3.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-3.png",
+              "link":{
+                "url":"/"
+              }
+            },
+            {
+              "image": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-4.png",
+              "mobileImage": "https://coexitob2b.vteximg.com.br/arquivos/cuarteto-4.png",
+              "link":{
+                "url":"/"
+              }
+            }
+          ]
+        }
+    },
+    "slider-layout#demo-images-banner-DOS-1": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": ["carousel","motopartes"]
+        }
+    },
+    "slider-layout#demo-images-banner-DOS-2": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": ["carousel","motopartes","last"]
+        }
+    },
+
+
+    // slider 6
+    // inicio promos 6
+    "rich-text#AUTOPARTES": {
+      "props": {
+        "text": "## AUTOPARTES",
+        "blockClass": ["shelfTitle","title-promos","autopartes"]
+      }
+    },
+
+    "flex-layout.row#slider-promo-6": {
+        "children": [
+            "flex-layout.col#slider-promo-6-1",
+            "flex-layout.col#slider-promo-6-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos"
+        }
+    },
+    // parte izquierda
+    "flex-layout.col#slider-promo-6-1": {
+        "children": [
+            "rich-text#title-lateral-derecho-6-1",
+            "rich-text#title-lateral-derecho-6-2"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"30%"
+        }
+    },
+    "rich-text#title-lateral-derecho-6-1": {
+        "props": {
+          "text":
+          "BATERÍAS MAC SILVER",
+          "blockClass": "title-slider-promo"
+        }
+    },
+    "rich-text#title-lateral-derecho-6-2": {
+        "props": {
+          "text":
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "blockClass": "content-slider-promo"
+        }
+    },
+    // parte derecha
+    "flex-layout.col#slider-promo-6-2": {
+        "children": [
+            "slider-layout#sider-promo-6"
+        ],
+        "props":{
+          "blockClass":"slider-promos",
+          "width":"70%"
+        }
+    },
+    "slider-layout#sider-promo-6": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "always",
+          "showPaginationDots":"always",
+          "blockClass": ["carousel","slider-promo"]
+        },
+        "children":[
+            "flex-layout.col#card-6-1",
+            "flex-layout.col#card-6-2",
+            "flex-layout.col#card-6-3",
+            "flex-layout.col#card-6-4",
+            "flex-layout.col#card-6-1"
+        ]
+    },
+    "flex-layout.col#card-6-1":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-6-1-1",
+            "image#image-promo-6-1-2",
+            "image#image-promo-6-1-3",
+            "rich-text#link-promo-6-1-1"
+        ]
+    },
+    "image#image-promo-6-1-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-6-1-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-6-1-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-6-1-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 2
+    "flex-layout.col#card-6-2":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-6-2-1",
+            "image#image-promo-6-2-2",
+            "image#image-promo-6-2-3",
+            "rich-text#link-promo-6-2-1"
+        ]
+    },
+    "image#image-promo-6-2-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-6-2-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-6-2-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-6-2-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 3
+    "flex-layout.col#card-6-3":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-6-3-1",
+            "image#image-promo-6-3-2",
+            "image#image-promo-6-3-3",
+            "rich-text#link-promo-6-3-1"
+        ]
+    },
+    "image#image-promo-6-3-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-6-3-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-6-3-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-6-3-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    },
+    // card 4
+    "flex-layout.col#card-6-4":{
+        "props": {
+          "blockClass": ["columna-promo"]
+        },
+        "children": [
+            "image#image-promo-6-4-1",
+            "image#image-promo-6-4-2",
+            "image#image-promo-6-4-3",
+            "rich-text#link-promo-6-4-1"
+        ]
+    },
+    "image#image-promo-6-4-1": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-1.png",
+          "blockClass":"image-promo"
+        }
+    },
+    "image#image-promo-6-4-2": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-2.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "image#image-promo-6-4-3": {
+        "props": {
+          "src": "https://coexitob2b.vteximg.com.br/arquivos/imagen-promo-3.png",
+          "blockClass":"image-content-promo"
+        }
+    },
+    "rich-text#link-promo-6-4-1": {
+        "props": {
+          "text": "[VER PRODUCTOS](/)",
+          "blockClass": ["links-slider-promo"]
+        }
+    }
+}

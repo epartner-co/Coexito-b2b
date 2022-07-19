@@ -65,7 +65,7 @@
   },
   "rich-text#boton1": {
     "props": {
-      "text": "[Educate](/)",
+      "text": "[Edúcate](/)",
       "blockClass": ["botonMenu-post","idioma"]
     }
   },
@@ -80,7 +80,7 @@
   },
   "rich-text#boton2": {
     "props": {
-      "text": "[Ubicacion](/)",
+      "text": "[Ubicación](/)",
       "blockClass": ["botonMenu-post","Ubicacion"]
     }
   },

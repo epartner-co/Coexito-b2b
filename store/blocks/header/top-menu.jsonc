@@ -30,10 +30,27 @@
       "menu-item#vtex-website3",
       "menu-item#vtex-website4",
       "menu-item#vtex-website5",
-      "menu-item#vtex-website6"
+      "menu-item#vtex-website6",
+      "menu-item#vtex-websiteCierre"
     ],
     "props":{
       "blockClass":"vertical-menu"
+    }
+  },
+  "menu-item#vtex-websiteCierre": {
+    "props": {
+      "blockClass": ["vertical","cierre"],
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "cierre",
+        "text": "cierre"
+      }
     }
   },
   "menu-item#vtex-website": {

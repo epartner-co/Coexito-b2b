@@ -101,7 +101,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","auto-camioneta"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -196,7 +196,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2","menu-lv2-v2"],
+            "blockClass":["menu-lv2","menu-lv2-v2","motos"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -242,7 +242,7 @@
             "href": "/lubricantes?initialMap=c&initialQuery=lubricantes&map=category-1,brand&query=/lubricantes/lubricantes-coexito&searchState",
             "noFollow": false,
             "tagTitle": "Lubricantes Coexito",
-            "text": "Lubricantes Coexito"
+            "text": "Lubricantes Coéxito"
             }
         }
     }

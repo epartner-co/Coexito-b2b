@@ -5,5 +5,5 @@
   transform: scale(1) !important;
 }
 .wrapper--stuck :global(.vtex-flex-layout-0-x-flexRowContent--main-header){
-  padding: 0.5rem 0.25rem !important;
+  padding: 0.5rem 1rem !important;
 }

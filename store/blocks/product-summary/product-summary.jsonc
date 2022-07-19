@@ -8,7 +8,7 @@
       "flex-layout.row#selling-price-savings",
       "product-availability",
       "add-to-cart-button"
-      //"product-availability-gallery"
+      // "product-availability-gallery"
     ]
   },
   "product-summary.shelf#newvitrina":{

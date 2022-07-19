@@ -32,3 +32,24 @@
         justify-content: flex-start !important;
     }
 }
+:global(.vtex-my-orders-app-3-x-productName){
+    color: #182841;
+    text-decoration: none;
+}
+:global(.vtex-my-orders-app-3-x-productImage){
+    width: 41%;
+}
+:global(.vtex-my-orders-app-3-x-productQuantity){
+    vertical-align: middle;
+    text-align: center;
+}
+:global(.vtex-my-orders-app-3-x-productTotalPrice){
+    vertical-align: middle;
+    text-align: center;
+}
+:global(.vtex-my-orders-app-3-x-productTable) thead th{
+    color: #182841;
+}
+:global(.vtex-my-orders-app-3-x-productTable) thead th:last-child{
+    text-align: center;
+}

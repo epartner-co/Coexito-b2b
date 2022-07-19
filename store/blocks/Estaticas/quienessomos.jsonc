@@ -20,10 +20,13 @@
       "flex-layout.row#tercerpara",
       "flex-layout.row#content-3",
       "flex-layout.row#content-4",
+      "rich-text#VALOR",
+      "flex-layout.row#quinta-2",
+      "flex-layout.row#quintam-2",
       "rich-text#historia-title",
       "list-context.image-list#storytime",
       "rich-text#CENTRO",
-      "rich-text#quienes-LOREM",
+      // "rich-text#quienes-LOREM",
       "flex-layout.row#quinta",
       "flex-layout.row#quintam",
       "rich-text#nuestrosproductos"
@@ -66,7 +69,7 @@
   },
   "rich-text#titleFConte": {
     "props": {
-      "text": "Coéxito, la red más grande de distribución de baterías y autopartes \n\n Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.",
+      "text": "Coéxito es la mejor experiencia para la operación continua, creciente y rentable de nuestros clientes y socios comerciales, sirviendo con pasión para generar confianza.",
       "blockClass": "contenido"
     }
   },
@@ -115,7 +118,7 @@
   },
   "rich-text#quienes-somos-coexito": {
     "props": {
-      "text": "# CONOCE MÁS DE COEXITO \n # COEXITO S.A.S Cuenta con dos certificaciones.\n  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.",
+      "text": "# CONOCE MÁS DE COÉXITO \n",
       "blockClass": "titulos-quienes-somos"
     }
   },
@@ -127,7 +130,7 @@
   },
   "rich-text#quienes-certificaciones": {
     "props": {
-      "text": "# Certificaciones",
+      "text": "# COÉXITO S.A.S Cuenta con dos certificaciones.\n  Somos la red más grande de comercialización de baterías, autopartes, eficiencia energética, equipos de diagnóstico automotor y prestación de servicios de mecánica automotriz rápida en Colombia. ",
       "blockClass": "titulos-quienes-somos"
     }
   },
@@ -171,7 +174,7 @@
       "textAlignment": "CENTER",
       "blockClass":"mision-vision",
       "headline": "Visión",
-      "subhead":"Consolidar el liderazgo en Colombia e incursionar rentablemente en al menos 2 países de la región andina y Centroamérica en el sector de autorpartes y sistema de respaldo de energía, convirtiéndonos en la mejor opción de comercialización para las marcas más reconocidas.",
+      "subhead":"Consolidar el liderazgo en Colombia e incursionar rentablemente en al menos 2 países de la región andina y Centroamérica en el sector de autopartes y sistema de respaldo de energía, convirtiéndonos en la mejor opción de comercialización para las marcas más reconocidas.",
       "isFullModeStyle": true
     }
   },
@@ -257,6 +260,40 @@
     "props": {
       "text": "[CONOCE NUESTROS PRODUCTOS](/)",
       "blockClass": "boton-nuestros-productos"
+    }
+  },
+  "rich-text#VALOR": {
+    "props": {
+      "text": "## **VALORES CORPORATIVOS**",
+      "blockClass": ["TitleEstatics","valor","valorcorporativos"]
+    }
+  },
+  "flex-layout.row#quinta-2":{
+    "props": {
+      "blockClass": ["imagenes-valor","coorporativo"]
+    },
+    "children": [
+      "image#lateral-valor-2"
+    ]
+  },
+  "image#lateral-valor-2": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/vaalor-quienes-somos-desk.png",
+      "blockClass":"valor"
+    }
+  },
+  "flex-layout.row#quintam-2":{
+    "props": {
+      "blockClass": ["imagenes-valorm","coorporativo"]
+    },
+    "children": [
+      "image#lateral-valorM-2"
+    ]
+  },
+  "image#lateral-valorM-2": {
+    "props": {
+      "src": "https://coexitob2b.vteximg.com.br/arquivos/valor-paraquienes.png",
+      "blockClass":"valorM"
     }
   }
 } 

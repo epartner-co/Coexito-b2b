@@ -102,7 +102,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","auto-camioneta"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -264,7 +264,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2","menu-lv2-v2"],
+            "blockClass":["menu-lv2","menu-lv2-v2","vehiculos-pesados"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -376,7 +376,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","motos"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,

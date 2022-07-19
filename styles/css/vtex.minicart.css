@@ -50,7 +50,7 @@
 .cartIcon {
     display: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .openIconContainer--headerItem :global(.vtex-button) {
     margin: 0;
   }
@@ -131,4 +131,18 @@
 
 .summarySmallDisclaimer {
     display: none;
+}
+.drawerContent--headerItem {
+  height: 100%;
+}
+.minicartCheckoutButton--finalizarPedido {
+  padding: 0 5px 0 1.5rem;
+}
+.minicartCheckoutButton--verCarrito {
+  padding: 0 1.5rem 0 5px;
+}
+
+
+.minicartSideBarContentWrapper--headerItem :global(.vtex-rich-text-0-x-paragraph){
+  text-align: center;
 }

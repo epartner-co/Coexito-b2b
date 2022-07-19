@@ -57,7 +57,7 @@
     display: none !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .trigger--subMneusMTrigger {
         background: #D3D3D3;
     }
@@ -72,7 +72,7 @@
 }
 .content--subMneusMContent--visible{
   padding-top: 20px;
-  width: 25%;
+  width: 100%;
 }
 
 

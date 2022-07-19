@@ -65,6 +65,9 @@
             "form-input.text#corporateDocument",
             "form-input.text#phone",
             "form-input.text#email-1",
+            "form-input.text#ciuedad",
+            "form-input.text#departamento",
+            "form-input.checkbox#agrement",
             "form-submit"
         ],
         "props":{
@@ -112,6 +115,24 @@
         "props": {
             "label":"Teléfono",
             "pointer": "#/properties/phone"
+        }
+    },
+    "form-input.text#ciuedad": {
+        "props": {
+            "label":"Ciudad",
+            "pointer": "#/properties/ciudad"
+        }
+    },
+    "form-input.text#departamento": {
+        "props": {
+            "label":"Departamento",
+            "pointer": "#/properties/departamento"
+        }
+    },
+    "form-input.checkbox#agrement": {
+        "props": {
+          "pointer": "#/properties/agrement",
+          "label": "Acepto la Politica de tratamiento de datos y los Términos y Condiciones*"
         }
     },
     "form-submit": {

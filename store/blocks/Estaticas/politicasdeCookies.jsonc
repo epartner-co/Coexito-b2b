@@ -8,7 +8,7 @@
 
   "rich-text#titleF": {
     "props": {
-      "text": "## **COEXITO MAYORISTA**",
+      "text": "## **COÉXITO MAYORISTA**",
       "blockClass": "TitleEstatics"
     }
   },
@@ -34,7 +34,7 @@
       "rich-text#Nuestro-calzado-Polit",
       "rich-text#todo-sobre-pies-Polit",
       "rich-text#empleado-Polit",
-      "rich-text#Nuestro-compromiso-Polit",
+      // "rich-text#Nuestro-compromiso-Polit",
       "rich-text#aviso-legal-Polit",
       "rich-text#tiendas-Polit"
     ]
@@ -61,7 +61,7 @@
     },
     "rich-text#Nuestro-calzado-Polit": {
       "props": {
-        "text": "[Educate](/Educate)",
+        "text": "[Edúcate](/Educate)",
         "blockClass":"links-paginas-estaticas"
       }
     },
@@ -91,7 +91,7 @@
     },
     "rich-text#tiendas-Polit": {
       "props": {
-        "text": "[Radicar PQRS](/pqr)",
+        "text": "[Radicar PQRS](https://energiteca.com/servicio-al-cliente/contacto)",
         "blockClass":"links-paginas-estaticas"
       }
     },

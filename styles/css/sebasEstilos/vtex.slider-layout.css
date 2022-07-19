@@ -10,7 +10,49 @@
     top: -60px!important;
     right: 0;
 }
-@media (max-width: 600px) {
+.sliderLayoutContainer--slider-promo{
+    background: transparent;
+}
+.slideChildrenContainer--slider-promo {
+    margin: 0 10px;
+    background: white;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+}
+.paginationDotsContainer--slider-promo {
+    margin-bottom: -30px;
+}
+.sliderLayoutContainer--banner-dos{
+    padding: 0 30px;
+    margin-bottom: 50px;
+    background: transparent;
+}
+.sliderLayoutContainer--carousel {
+    background: transparent;
+}
+.slideChildrenContainer--banner-dos {
+    padding: 0 10px;
+}
+.sliderTrackContainer--motopartes {
+    padding: 0 30px;
+}
+.slideChildrenContainer--motopartes {
+    padding: 10px 10px;
+
+}
+.sliderLayoutContainer--last{
+    margin-bottom: 50px;
+}
+.sliderLayoutContainer--banner-tres-promo{
+    padding: 0 0px 30px 0px;
+    margin: 0 30px;
+    width: 96%;
+    border-bottom: 1px solid #D3D3D3;
+}
+.slideChildrenContainer--banner-tres-promo {
+    padding: 0 10px;
+}
+@media (max-width: 900px) {
     .sliderLeftArrow--category  {
         top: -70px!important;
         left: 29%;
@@ -27,6 +69,25 @@
         padding: 0 10px;
     }
 }
+@media (max-width: 1300px) {
+    .sliderRightArrow--categorias-carousel {
+        top: -19%;
+        right: 3px;
+    }
+}
 .slide.slide--shelf.slide--category.slide--visible.slide--shelf--visible.slide--category--visible {
   padding: 0;
+}
+@media (max-width: 900px)  {
+    .sliderLayoutContainer--banner-tres-promo {
+        padding: 0 10px;
+        border: 0;
+    }
+    .sliderTrackContainer--banner-tres-promo {
+        padding-bottom: 52px;
+        border-bottom: 1px solid #D3D3D3;
+    }
+    .sliderLayoutContainer--banner-dos{
+        padding: 0 10px;
+    }
 }

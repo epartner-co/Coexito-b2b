@@ -1,6 +1,6 @@
 
 /*Home*/
-.flexRowContent.flexRowContent--fichas {width: 80%;justify-content: center;align-items: center;display: flex;margin: 0 auto;}
+.flexRowContent.flexRowContent--fichas {width: 80%;justify-content: center;align-items: flex-start;display: flex;margin: 0 auto;}
 
 .flexCol.flexCol--fichas {background: white;margin: 30px 30px 0 0;}
 
@@ -25,7 +25,7 @@
 
 .flexCol.flexCol--bloqueprinci3 {border-left: 1px solid white;}
 
-.flexRowContent.flexRowContent--Bloque2 {background: #f0f0f0;width: 100%;padding: 0 28%;}
+.flexRowContent.flexRowContent--Bloque2 {background: #f0f0f0;width: 100%;padding: 0 27%;}
 
 .flexRowContent.flexRowContent--contenedorF.flexRowContent--paso2 {padding: 0px 0 0 0;background: #E8E8E8;}
 .flexRowContent.flexRowContent--contenedorF.flexRowContent--paso3 {padding: 0px 0 0 0;background: #E8E8E8;}
@@ -63,7 +63,7 @@
 }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .flexCol--itemsSticky {
     padding: 8px 19px;
   }
@@ -333,7 +333,7 @@
 
 .flexColChild.flexColChild--primeraCol {border-bottom: 1px solid #D3D3D3;background: white;}
 
-.flexRowContent.flexRowContent--faq.flexRowContent--estaticas.flexRowContent--segundocontainer {margin: 0 auto 55px auto;width: 95%;}
+.flexRowContent.flexRowContent--faq.flexRowContent--estaticas.flexRowContent--segundocontainer {margin: 0 auto 55px auto;width: 93%;}
 
 .flexRowContent.flexRowContent--faq.flexRowContent--estaticas.flexRowContent--segundocontainer .stretchChildrenWidth:last-child {background: white;padding: 0 3%;margin: 0 0 0 2%;}
 

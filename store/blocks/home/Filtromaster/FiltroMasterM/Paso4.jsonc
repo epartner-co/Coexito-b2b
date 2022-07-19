@@ -36,7 +36,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "**PASO 3:** Selecciona las referencías",
+      "text": "**PASO 3:** Selecciona las referencias",
       "blockClass": ["tituloP"]
     }
   },

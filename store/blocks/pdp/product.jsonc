@@ -12,7 +12,10 @@
   },
   "flex-layout.col#productContainer": {
     "children": [
-      "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#cond42",
+      "condition-layout.product#cond4",
+      "condition-layout.product#cond1",
+      "condition-layout.product#cond3",
       "condition-layout.product#availability",
       "responsive-layout.desktop#fichaProducto",
       "responsive-layout.desktop#tabbers",
@@ -50,6 +53,94 @@
   "rich-text#specifications": {
     "props": {
       "text": "##### Product Specifications"
+    }
+  },
+  "condition-layout.product#cond42": {
+    "props": {
+        "conditions": [
+          {
+            "subject": "productClusters",
+            "arguments": {
+              "id": ["141"]
+            }
+          }
+        ],
+        "matchType": "any",
+        "Then": "flex-layout.row#searchbread-bateria-pro"
+    }
+  },
+  "condition-layout.product#cond4": {
+    "props": {
+        "conditions": [
+          {
+            "subject": "productClusters",
+            "arguments": {
+              "id": ["143"]
+            }
+          }
+        ],
+        "matchType": "any",
+        "Then": "flex-layout.row#searchbread-autpartes-pro"
+    }
+  },
+  "condition-layout.product#cond1": {
+    "props": {
+        "conditions": [
+          {
+            "subject": "productClusters",
+            "arguments": {
+              "id": ["1"]
+            }
+          }
+        ],
+        "matchType": "any",
+        "Then": "flex-layout.row#searchbread-llantas-pro"
+    }
+  },
+  "condition-layout.product#cond3": {
+    "props": {
+        "conditions": [
+          {
+            "subject": "productClusters",
+            "arguments": {
+              "id": ["142"]
+            }
+          }
+        ],
+        "matchType": "any",
+        "Then": "flex-layout.row#searchbread-lubricantes-pro"
+    }
+  },
+  "flex-layout.row#searchbread-bateria-pro": {
+    "children": ["breadcrumb"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass":"bateria"
+    }
+  },
+  "flex-layout.row#searchbread-autpartes-pro": {
+    "children": ["breadcrumb"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass":"autopartes"
+    }
+  },
+  "flex-layout.row#searchbread-llantas-pro": {
+    "children": ["breadcrumb"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass":"llantas"
+    }
+  },
+  "flex-layout.row#searchbread-lubricantes-pro": {
+    "children": ["breadcrumb"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass":"lubricante"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -285,7 +376,12 @@
     "props": {
       "blockClass":"rowButtonsProduct-1"
     },
-    "children": ["add-to-cart-button","flex-layout.col#cotizarButton"]
+    "children": ["add-to-cart-button","add-to-cart-button#cotizar"]
+  },
+  "add-to-cart-button#cotizar":{
+    "props":{
+      "blockClass":"cotizador-agregar"
+    }
   },
   "flex-layout.col#whastAppButton": {
     "props": {
@@ -314,7 +410,7 @@
   "rich-text#cotizarButton": {
     "props": {
       "blockClass":"cotizarButton",
-      "text": "[Cotizar](/orderquote)"
+      "text": "[Enviar al cotizador](/orderquote)"
     }
   },
   "flex-layout.row#product-availability": {

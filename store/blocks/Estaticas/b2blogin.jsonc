@@ -48,7 +48,7 @@
     },
     "rich-text#shelf-titleInicio": {
         "props": {
-          "text": "Bienvenido a coexito mayorista",
+          "text": "Bienvenido a coéxito mayorista",
           "blockClass": "titulosForm"
         }
     },

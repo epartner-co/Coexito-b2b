@@ -5,6 +5,9 @@
       "blockClass": ["shelfTitle","tituloSliderCategoria"]
     }
   },
+  "responsive-layout.desktop#categorias-desktop": {
+    "children": ["flex-layout.row#sliderCategorias"]
+  },
   "flex-layout.row#sliderCategorias": {
       "props": {
           "blockClass": "sliderRowCategorias"
@@ -32,8 +35,26 @@
       },
       "children":["flex-layout.col#categoriaLlantas","flex-layout.col#categoriaBaterias","flex-layout.col#categorialubricantes","flex-layout.col#categoriaautopartes","flex-layout.col#categoria1","flex-layout.col#categoria2","flex-layout.col#categoria3"]
   },
+  "responsive-layout.mobile#categorias-mobile1": {
+    "children": ["slider-layout#marcas-images-bRow1-m"]
+  },
   "responsive-layout.mobile#categorias-mobile": {
     "children": ["slider-layout#marcas-images-bRow2"]
+  },
+  "slider-layout#marcas-images-bRow1-m": {
+    "props": {
+        "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "never",
+        "blockClass": "categorias-carousel",
+        "navigationStep":"1"
+    },
+    "children":["flex-layout.col#categoriaLlantas","flex-layout.col#categoriaBaterias"]
   },
   "slider-layout#marcas-images-bRow2": {
     "props": {
@@ -44,11 +65,11 @@
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
-        "showPaginationDots": "mobileOnly",
+        "showPaginationDots": "never",
         "blockClass": "categorias-carousel",
         "navigationStep":"1"
     },
-    "children":["flex-layout.col#categorialubricantes","flex-layout.col#categoriaautopartes","flex-layout.col#categoria1","flex-layout.col#categoria2","flex-layout.col#categoria3","flex-layout.col#categoriaLlantas","flex-layout.col#categoriaBaterias"]
+    "children":["flex-layout.col#categorialubricantes","flex-layout.col#categoriaautopartes"]
   },
   "rich-text#verAll": {
       "props": {

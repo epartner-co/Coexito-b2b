@@ -35,6 +35,7 @@
       "flex-layout.row#message.desktop"
     ],
     "props": {
+      "blockClass":"informacion-product",
       "width": "grow"
     }
   },
@@ -45,7 +46,8 @@
     ],
     "props": {
       "preserveLayoutOnMobile": "true",
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass":"namecontainer"
     }
   },
   "flex-layout.row#sub-container.desktop-2": {

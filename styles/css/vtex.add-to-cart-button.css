@@ -2,3 +2,37 @@
     font-family: 'Inter';
     font-weight: 400;
 }
+
+.buttonDataContainer.buttonDataContainer--cotizador-agregar  .buttonText--cotizador-agregar::before{
+    content: "Enviar al cotizador";
+    color: #004d9d;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: initial;
+}
+.buttonDataContainer .buttonText--cotizador-agregar::after{
+    display: none !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--rowButtonsProduct-1):last-child :global(.vtex-button){
+    background: white;
+    border: 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--rowButtonsProduct-1):last-child :global(.vtex-button):hover{
+    background: white;
+    border: 0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--rowButtonsProduct-1):last-child :global(.vtex-button__label){
+    text-transform: initial;
+}
+.buttonDataContainer--cotizador-agregar::before{
+    content: "";
+    background: url(/arquivos/cotizarLogo.png);
+    background-size: 100%;
+    height: 14.8px;
+    width: 14px;
+    display: block;
+    margin-right: 10px;
+}
+.buttonDataContainer--cotizador-agregar{
+    align-items: center;
+}

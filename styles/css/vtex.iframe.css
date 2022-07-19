@@ -3,7 +3,7 @@
     padding: 0 0 0 3%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 .container{
   padding: 0;
 }

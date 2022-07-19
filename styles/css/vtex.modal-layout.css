@@ -112,7 +112,7 @@
   font-size: 13px;
   position: relative;
 }
-.contentContainer--quickviewContent :global(.vtex-rich-text-0-x-paragraph--tituloRightProductFc)::before{
+.contentContainer.contentContainer--quickviewContent :global(.vtex-rich-text-0-x-paragraph--tituloRightProductFc)::before{
   content: "";
   background: url(https://coexitob2b.vteximg.com.br/arquivos/promocionespagproduct.png);
   background-size: 100%;

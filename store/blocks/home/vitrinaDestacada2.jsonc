@@ -44,7 +44,10 @@
   },
   "list-context.product-list#vitrineDest3": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-vitrine-dest"]
+    "children": ["slider-layout#demo-vitrine-dest"],
+    "props":{
+      "collection":"145"
+    }
   },
   "slider-layout#demo-vitrine-dest": {
     "props": {
@@ -73,7 +76,10 @@
   },
   "list-context.product-list#vitrineDest3-2": {
     "blocks": ["product-summary.shelf#newvitrina"],
-    "children": ["slider-layout#demo-vitrine-dest-2"]
+    "children": ["slider-layout#demo-vitrine-dest-2"],
+    "props":{
+      "collection":"145"
+    }
   },
   "slider-layout#demo-vitrine-dest-2": {
     "props": {
@@ -91,7 +97,10 @@
   },
   "list-context.product-list#vitrineDest3-3": {
     "blocks": ["product-summary.shelf#newvitrina"],
-    "children": ["slider-layout#demo-vitrine-dest-3"]
+    "children": ["slider-layout#demo-vitrine-dest-3"],
+    "props":{
+      "collection":"145"
+    }
   },
   "slider-layout#demo-vitrine-dest-3": {
     "props": {

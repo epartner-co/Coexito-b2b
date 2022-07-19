@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .containerNormal :global(.vtex-button) {
         background: #004D9D;
     }

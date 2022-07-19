@@ -343,6 +343,15 @@
   bottom: 40px;
   height: auto!important;
 }
+@media (max-width: 1400px) {
+  .flexColChild--calltoaction-banner:last-child{
+    position: absolute;
+    width: 100%;
+    bottom: 27px;
+    margin-left: -6px;
+    height: auto!important;
+  }
+}
 .flexCol--calltoaction-banner  {
   position: relative;
 }
@@ -354,7 +363,7 @@
 }
 .flexRow--rowDelivery::before{
   content: "";
-  background: url(https://coexitob2b.vteximg.com.br/arquivos/etiqueta-tiempo.png) no-repeat;
+  background: url(https://coexitob2b.vteximg.com.br/arquivos/banner-desktop-para-orden.png) no-repeat;
   background-size: 100%;
   width: 100%;
   height: 87px;
@@ -376,11 +385,11 @@
   margin-bottom: 130px;
 }
 .flexRowContent--segundocontainer .stretchChildrenWidth:first-child{
-  height: 562px;
+  height: 536px;
 }
 /* Estilos Mobile */
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .flexRowContent--segundocontainer .stretchChildrenWidth:first-child{
     height: auto !important;
   }
@@ -392,15 +401,15 @@
     background:url(https://coexitob2b.vteximg.com.br/arquivos/greenMessage-image.png) no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 70px;
+    height: 116px;
     display: block;
   }
   .flexRow--rowDelivery::before{
     content: "";
-    background: url(https://coexitob2b.vteximg.com.br/arquivos/blueMessage-mobile.png) no-repeat;
+    background: url(https://coexitob2b.vteximg.com.br/arquivos/banner-mobile-para-orden.png) no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 50px;
+    height: 79px;
     display: block;
     margin: 10px 0;
   }
@@ -410,7 +419,7 @@
   .flexColChild--cta-terciario:last-child {
     position: absolute;
     width: 100%;
-    bottom: 11px;
+    bottom: 11px !important;
     margin-left: -6px;
     height: auto!important;
   }
@@ -431,7 +440,7 @@
     padding: 10px;
   }
   .flexCol--homeContainer  {
-    padding: 0;
+    padding: 0 !important;
   }
   .flexCol--bannerSegContainer  {
     padding: 0;
@@ -601,4 +610,57 @@
 .flexRow--contenedorF {
   border-radius: 20px;
   margin: 0 40px 0 40px;
+}
+.flexRowContent.flexRowContent--capcitacio .stretchChildrenWidth:first-child{
+  height: auto;
+}
+.flexRowContent--capcitacio {
+  align-items: center;
+}
+.flexCol--capcitacio  {
+  margin-bottom: 60px;
+}
+.flexRowContent.flexRowContent--capcitacio .stretchChildrenWidth   {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.flexRowContent--responsable-educate .stretchChildrenWidth{
+  height: auto !important;
+  margin-bottom: 60px;
+}
+.flexColChild--contenedor-promos:last-child {
+  margin-bottom: 40px;
+}
+.flexRow--slider-promos{
+  padding: 0 10px;
+}
+@media screen and (min-width: 600px) and (max-width: 1300px) {
+  .flexRow--contenedor-promos{
+    margin-left: 90px !important;
+  }
+}
+@media (max-width: 900px)  {
+  .flexRow--seguridad-activa{
+    padding: 0 10px;
+  }
+  .flexRow--contenedor-promos{
+    margin-left: 0px !important;
+  }
+  .flexRow--slider-promos{
+    padding: 0 10px !important;
+  }
+  .flexRowContent--slider-promos .stretchChildrenWidth:first-child .flexCol--slider-promos{
+    padding: 0 10px !important;
+  }
+  .flexColChild--banner-cta-independiente:last-child {
+    top: 16% !important;
+  }
+  .flexRowContent--banner-cta-independiente {
+    padding: 0 10px !important;
+  }
+}
+@media (max-width: 600px)  {
+  .flexRow--contenedor-promos{
+    margin-top: 28px;
+  }
 }

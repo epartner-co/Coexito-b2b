@@ -3,7 +3,7 @@
 
 .sliderLayoutContainer.sliderLayoutContainer--shelf {padding: 0 40px;}
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .sliderLayoutContainer--borderc{width: 100% !important;}
 .paginationDotsContainer.paginationDotsContainer--categorias-carousel {display: flex;justify-content: center;bottom: -23px;}
 

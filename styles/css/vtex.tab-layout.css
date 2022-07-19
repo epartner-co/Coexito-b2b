@@ -40,7 +40,7 @@
     font-family: 'Inter';
     text-transform: uppercase;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .listItem{
         width: 100% !important;
     }

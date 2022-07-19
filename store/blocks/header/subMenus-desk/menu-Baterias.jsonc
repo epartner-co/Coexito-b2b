@@ -103,7 +103,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","auto-camioneta"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -249,7 +249,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2","menu-lv2-v2"],
+            "blockClass":["menu-lv2","menu-lv2-v2","vehiculos-pesados"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -296,7 +296,7 @@
             "href": "/Baterías/Pesados?initialMap=c&initialQuery=Baterias/Pesados&map=category-1,brand,tipo-de-vehiculo&query=/baterias/mac-gold/pesados&searchState",
             "noFollow": false,
             "tagTitle": "Baterias MAC",
-            "text": "BaterÍas MAC"
+            "text": "Baterías MAC"
             }
         }
     },
@@ -312,7 +312,7 @@
             "href": "/",
             "noFollow": false,
             "tagTitle": "Baterias coexito",
-            "text": "Baterías coexito"
+            "text": "Baterías Coéxito"
             }
         }
     },
@@ -361,7 +361,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","motos"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,
@@ -407,7 +407,7 @@
             "href": "/Baterías/Motos?initialMap=c&initialQuery=Baterias/Motos&map=category-1,brand,tipo-de-vehiculo&query=/baterias/mac-gold/motos&searchState",
             "noFollow": false,
             "tagTitle": "Batterias magna",
-            "text": "Batterias magna"
+            "text": "Baterías Magna"
             }
         }
     },
@@ -455,7 +455,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass":["menu-lv2"],
+            "blockClass":["menu-lv2","estacionarias"],
             "itemProps": {
             "type": "internal",
             "noFollow": false,

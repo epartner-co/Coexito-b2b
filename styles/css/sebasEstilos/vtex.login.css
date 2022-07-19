@@ -12,3 +12,136 @@
 .profile {
     font-size: 12px;
 }
+:global(.vtex-orderquote-1-x-logo){
+    display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--contenedor4filtros) div{
+    margin-bottom: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+:global(.vtex-orderquote-1-x-listContainer) :global(.vtex-table__container) > div:first-child{
+    display: none;
+}
+:global(.vtex-orderquote-1-x-containerList) > div:last-child{
+    padding: 0;
+}
+:global(.vtex-orderquote-1-x-refreshButton) :global(.vtex-button__label){
+    padding-left: 0 !important;
+}
+:global(.vtex-orderquote-1-x-containerList) > div:nth-child(2) > button :global(.vtex-button__label){
+    font-size: 0;
+}
+:global(.vtex-orderquote-1-x-containerList) > div:nth-child(2) > button :global(.vtex-button__label)::before{
+    content: "Nueva cotización";
+    font-size: 14px;
+    font-weight: 400;
+}
+:global(.vtex-orderquote-1-x-containerFields){
+    position: relative;
+    top: 0%;
+    margin-bottom: 120px;
+}
+:global(.vtex-orderquote-1-x-containerFields) > div:last-child{
+    position: absolute;
+    top: 0%;
+    top: -20%;
+    left: 30%;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) form{
+    display: flex;
+    flex-wrap: wrap;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) :global(.vtex-input):nth-child(9){
+    width: 96%!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) :global(.vtex-input):nth-child(8){
+    width: 96%!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) :global(.vtex-input):nth-child(7){
+    width: 96%!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
+    height: 50px !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) :global(.vtex-input) :global(.vtex-input-prefix__group){
+    height: 50px !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) :global(.vtex-input):nth-child(9) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
+    height: 76px !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--servicio) :global(.vtex-input):nth-child(9) :global(.vtex-input-prefix__group){
+    height: 76px !important;
+}
+/* contact */
+:global(.vtex-flex-layout-0-x-flexColChild--contactenos) form{
+    display: flex;
+    flex-wrap: wrap;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--contactenos) :global(.vtex-input):first-child{
+    width: 96%!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--contactenos) :global(.vtex-input):nth-child(4){
+    width: 96%!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--contactenos) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
+    height: 50px !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--contactenos) :global(.vtex-input) :global(.vtex-input-prefix__group){
+    height: 50px !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--contactenos) :global(.vtex-input):nth-child(4) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input){
+    height: 76px !important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--contactenos) :global(.vtex-input):nth-child(4) :global(.vtex-input-prefix__group){
+    height: 76px !important;
+}
+@media screen and (min-width: 600px) and (max-width: 1026px) {
+    :global(.vtex-orderquote-1-x-containerFields) > div:last-child{
+        position: absolute;
+        top: 0%;
+        top: -20%;
+        left: 55%;
+    }
+}
+@media (max-width: 1000px) {
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso3) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+        width: 20% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso3) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+        width: 80% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso4) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+        width: 20% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso4) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+        width: 80% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso5) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+        width: 20% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso5) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+        width: 80% !important;
+    }
+}
+@media (max-width: 600px) {
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso3) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+        width: 100% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso3) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+        width: 100% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso4) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+        width: 100% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso4) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+        width: 100% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso5) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+        width: 100% !important;
+    }
+    :global(.vtex-search-result-3-x-container--layout) :global(.vtex-flex-layout-0-x-flexRow--paso5) :global(.vtex-flex-layout-0-x-flexRowContent--bloqueprinci ) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+        width: 100% !important;
+    }
+}

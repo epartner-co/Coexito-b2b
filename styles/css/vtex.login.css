@@ -42,25 +42,89 @@
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+  text-transform: uppercase;
 }
 :global(.vtex-orderquote-1-x-containerView) :global(.vtex-pageHeader__title)::before {
   content: "Productos Cotizados";
-  font-size: 35px;
+  font-size: 30px;
   width: 100%;
+}
+:global(.vtex-orderquote-1-x-field) span{
+  font-size: 13px;
+}
+:global(.vtex-orderquote-1-x-buttonPrint) :global(.vtex-button){
+  background: white;
+}
+:global(.vtex-orderquote-1-x-buttonPrint) :global(.vtex-button):hover :global(.vtex-button__label){
+  background-color: #d3d3d3 !important;
+}
+:global(.vtex-orderquote-1-x-containerFields) img{
+  width: 21%;
+  height: auto;
+}
+:global(.vtex-orderquote-1-x-currencyContainer){
+  font-size: 15px;
+}
+:global(.vtex-orderquote-1-x-field) {
+  font-size: 12px;
+}
+:global(.vtex-pageHeader__title){
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 27px;
+}
+:global(.vtex-orderquote-1-x-totalizerContainer){
+  background: white;
+}
+:global(.vtex-textarea__label) {
+  color: #3f3f40;
+  font-size: .875rem;
+}
+:global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-table__container){
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  overflow-x: hidden;
+}
+:global(.vtex-orderquote-1-x-buttonSave) :global(.vtex-button__label){
+  font-size: 12px;
+    padding: 5px 30px;
+}
+:global(.vtex-orderquote-1-x-buttonSave) :global(.vtex-button){
+  margin-left: 10px;
+}
+:global(.vtex-orderquote-1-x-containerCreate) > div:last-child > div {
+  padding: 0;
+}
+:global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-input-prefix__group){
+  border-color: #004D9D !important;
+}
+:global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-textarea__input){
+  border-color: #004D9D !important;
 }
 :global(.vtex-orderquote-1-x-containerView) :global(.vtex-pageHeader__title)::after {
   content: "";
   width: 20%;
   height: 3px;
   background: #ed6b10;
-  margin-left: -15%;
+  margin-left: -8%;
   position: absolute;
   top: 100%;
+}
+@media (max-width: 1400px) {
+  :global(.vtex-orderquote-1-x-containerView) :global(.vtex-pageHeader__title)::after {
+    margin-left: -11%;
+  }
+}
+@media (max-width: 1300px) {
+  :global(.vtex-orderquote-1-x-containerView) :global(.vtex-pageHeader__title)::after {
+    margin-left: -16%;
+  }
 }
 :global(.vtex-orderquote-1-x-containerView) :global(.vtex-table__container) {
   background: white;
   /* padding: 0 5px; */
-  border: 1px solid #e3e4e6;
+  border: 1px solid #d3d3d3;
   border-radius: 5px;
   margin: 29px 0;
 }
@@ -136,9 +200,20 @@
   background-color: #e52828;
   border-color: #e52828;
 }
+:global(.vtex-orderquote-1-x-totalizerContainer) > div > div div{
+  border-color: #d3d3d3 !important;
+}
+
+:global(.vtex-orderquote-1-x-totalizerContainer) > div > div{
+  border-color: #d3d3d3 !important;
+}
 
 :global(.vtex-orderquote-1-x-buttonUse) :global(.vtex-button) {
   border: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--formRegistroInputs) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(9){
+  width: 100% !important;
 }
 
 
@@ -149,9 +224,7 @@
 
 
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
   .contentFormVisible :global(.vtex-input-prefix__group) {height: 45px !important;border: 1px solid #004d9d;}
 
@@ -223,9 +296,60 @@
   height: auto!important;
   z-index: -1;
   display: flex;
-  width: 25%;
+  width: 100%;
   justify-content: center;
 }
 .contentForm.contentFormVisible {min-width: 100%;}
 
 .contentForm.contentFormVisible {padding: 0;}
+
+:global(.vtex-orderquote-1-x-containerCreate) :global(.vtex-pageHeader__title)::after{
+  content: "";
+  background: #ED6B10;
+  width: 170px;
+  height: 3px;
+  margin-left: 38.3%;
+  display: block;
+}
+
+:global(.vtex-table__container) div div{
+  white-space: break-spaces;
+} 
+:global(.vtex-orderquote-1-x-itemSkuName){
+  display: none;
+}
+:global(.vtex-orderquote-1-x-itemName){
+  font-size: 12px;
+}
+:global(.vtex-orderquote-1-x-containerCreate){
+  margin-bottom: 50px !important;
+}
+@media (max-width: 900px) {
+  :global(.vtex-orderquote-1-x-containerCreate){
+    padding: 0 20px !important;
+  }
+  :global(.vtex-orderquote-1-x-containerView){
+    padding: 0 20px !important;
+  }
+  :global(.vtex-orderquote-1-x-containerView) :global(.vtex-pageHeader__title)::before{
+    content: "Productos Cotizados";
+    font-size: 18px;
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  :global(.vtex-orderquote-1-x-containerView) :global(.vtex-pageHeader__title)::after{
+    margin-left: -53.5%!important;
+  }
+  :global(.vtex-orderquote-1-x-containerFields) img{
+    width: 66% !important;
+    height: auto;
+  }
+  :global(.vtex-orderquote-1-x-containerView) :global(.vtex-pageHeader__title){
+    font-size: 0 !important;
+  }
+  :global(.vtex-orderquote-1-x-containerList) :global(.vtex-orderquote-1-x-listContainer){
+    margin-bottom: 35px;
+    margin-top: 17px;
+  }
+}
