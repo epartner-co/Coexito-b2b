@@ -1,3 +1,7 @@
+:global(.vtex-flex-layout-0-x-flexCol--estaticasti) :global(.vtex-flex-layout-0-x-flexColChild--estaticasti):nth-child(4){
+  margin-top:  20px;
+}
+
 .label  {
   text-transform: capitalize;
   display: flex;
